@@ -3,6 +3,50 @@ layout: default
 permalink: /
 ---
 
+<style>
+.home-bg {
+  position: relative;
+  padding: 2rem 1.25rem 3rem;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.home-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(255,255,255,0.72), rgba(255,255,255,0.84)),
+    url('{{ "/assets/images/red-panda-home-bg.png" | relative_url }}') center center / cover no-repeat;
+  z-index: 0;
+}
+
+.home-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+.home-bg .card,
+.home-bg .list-group-item,
+.home-bg .jumbotron,
+.home-bg section {
+  background: rgba(255,255,255,0.80);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+}
+
+.home-bg h1,
+.home-bg h2,
+.home-bg h3,
+.home-bg h4,
+.home-bg p,
+.home-bg li {
+  text-shadow: 0 1px 2px rgba(255,255,255,0.18);
+}
+</style>
+
+<div class="home-bg">
+
 {% include landing.html %}
 
 <div class="row mt-5">
@@ -27,9 +71,9 @@ permalink: /
       <div class="card-body">
         <h4 class="mb-3">Quick Links</h4>
         <p class="mb-2"><a href="{{ '/publications/' | relative_url }}"><strong>Publications</strong></a></p>
-        <p class="mb-2"><a href="{{ '/about/' | relative_url }}"><strong>Biography &amp; Service</strong></a></p>
+        <p class="mb-2"><a href="{{ '/about/' | relative_url }}"><strong>About</strong></a></p>
         <hr>
-        <p class="mb-2">Email: <a href="mailto:zwx8981@sjtu.edu.cn">zwx8981@sjtu.edu.cn</a></p>
+        <p class="mb-2"><a href="mailto:zwx8981@sjtu.edu.cn">Email</a></p>
         <p class="mb-2"><a href="https://scholar.google.com/citations?user=KK2nLnQAAAAJ">Google Scholar</a></p>
         <p class="mb-0"><a href="https://github.com/zwx8981">GitHub</a></p>
       </div>
@@ -105,3 +149,4 @@ permalink: /
   See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for journal articles, conference papers, preprints, and thesis information.
 </p>
 
+</div>
