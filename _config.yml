@@ -7,7 +7,7 @@ description: >-
   and video quality assessment, vision-language based quality understanding,
   and human-aligned visual perception.
 baseurl: ""
-repository: zwx8981/zwx8981.github.io
+repository: zwx8981/portfolYOU.github.io
 remote_theme: yousinix/portfolYOU@v2.3.0
 open_new_tab: true
 
