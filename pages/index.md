@@ -30,8 +30,8 @@ permalink: /
         <p class="mb-2"><a href="{{ '/about/' | relative_url }}"><strong>Biography &amp; Service</strong></a></p>
         <hr>
         <p class="mb-2">Email: <a href="mailto:zwx8981@sjtu.edu.cn">zwx8981@sjtu.edu.cn</a></p>
-        <p class="mb-2">Google Scholar: <a href="https://scholar.google.com/citations?user=KK2nLnQAAAAJ">profile</a></p>
-        <p class="mb-0">GitHub: <a href="https://github.com/zwx8981">zwx8981</a></p>
+        <p class="mb-2"><a href="https://scholar.google.com/citations?user=KK2nLnQAAAAJ">Google Scholar</a></p>
+        <p class="mb-0"><a href="https://github.com/zwx8981">GitHub</a></p>
       </div>
     </div>
   </div>
