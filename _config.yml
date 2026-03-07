@@ -6,8 +6,8 @@ description: >-
   evaluation and enhancement for PGC, UGC, and AIGC visual content, with a
   focus on robust image/video quality assessment, vision-language quality
   understanding, and human-aligned perceptual modeling.
-baseurl: ""
-repository: zwx8981/zwx8981.github.io
+baseurl: "/zhangweixia"
+repository: zwx8981/zhangweixia.github.io
 remote_theme: yousinix/portfolYOU@v2.3.0
 open_new_tab: true
 
