@@ -1,11 +1,7 @@
 ### Site Settings ###
 title: Weixia Zhang
 description: >-
-  Associate Research Scientist at the MoE Key Lab of Artificial Intelligence,
-  AI Institute, Shanghai Jiao Tong University. I work on perceptual quality
-  evaluation and enhancement for PGC, UGC, and AIGC visual content, with a
-  focus on robust image/video quality assessment, vision-language quality
-  understanding, and human-aligned perceptual modeling.
+  Weixia Zhang (张维夏)
 baseurl: "/zhangweixia"
 repository: zwx8981/zhangweixia
 remote_theme: yousinix/portfolYOU@v2.3.0
