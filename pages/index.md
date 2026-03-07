@@ -17,7 +17,7 @@ permalink: /
   inset: 0;
   background:
     linear-gradient(rgba(255,255,255,0.72), rgba(255,255,255,0.84)),
-    url('{{ "/assets/images/red-panda-home-bg.png" | relative_url }}') center center / cover no-repeat;
+    url('{{ "/assets/red-panda-home-bg.png" | relative_url }}') center center / cover no-repeat;
   z-index: 0;
 }
 
