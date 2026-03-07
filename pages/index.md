@@ -6,7 +6,7 @@ permalink: /
 <style>
 .home-bg {
   position: relative;
-  padding: 2rem 1.25rem 3rem;
+  padding: 2rem 0.5rem 3rem;
   border-radius: 24px;
   overflow: hidden;
 }
