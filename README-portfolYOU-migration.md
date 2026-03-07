@@ -1,22 +1,38 @@
-# R-PANDA → portfolYOU migration draft
+# R-PANDA → portfolYOU (Academic Refined Version)
 
-This folder contains a first-pass migration of the public content from the Google Site below into a structure that fits **portfolYOU**:
+This refined version is tuned to feel more like an academic homepage.
 
-- Source site: https://sites.google.com/view/r-panda/home
-- Theme docs: https://yousinix.github.io/portfolYOU/docs/
+## What changed
 
-## Files included
+- Added a custom **home page** at `pages/index.md`
+  - keeps the original landing section from portfolYOU
+  - adds a research overview
+  - adds selected publications with direct Paper/Code links
+  - adds featured GitHub repositories directly on the homepage
+- Refined **Publications** into:
+  - a highlighted "Selected First-Authored Publications" section
+  - a cleaner grouped full list using expandable sections
+- Added a dedicated **Code** page at `pages/code.html`
+- Reordered the navbar to better match an academic personal site:
+  - Publications
+  - About
+  - Code
+- Updated wording across the site to emphasize research, service, and academic visibility
 
-- `_config.yml` — homepage text, social links, nav exclusions
-- `_data/social-media.yml` — adds Google Scholar and ResearchGate icons
-- `_data/timeline.yml` — education and career timeline
-- `pages/about.md` — biography, interests, funding, service, talks
-- `pages/publications.md` — publication list converted into markdown
+## Files added / updated
 
-## What to do next
+- `_config.yml`
+- `pages/index.md`
+- `pages/about.md`
+- `pages/publications.md`
+- `pages/code.html`
+- `_data/timeline.yml`
+- `_data/social-media.yml`
 
-1. Copy these files into your `portfolYOU` repository.
-2. Put your profile photo at `assets/avatar.jpg`.
-3. If your repo is not `zwx8981.github.io`, update the `repository:` line in `_config.yml`.
-4. Optionally add a `pages/projects.html` page later if you want to showcase selected GitHub repos as projects.
-5. Optionally add PDF / code links back into `pages/publications.md` for the strongest parity with the original Google Site.
+## Still recommended
+
+1. Put your portrait photo at `assets/avatar.jpg`
+2. If your repo is not `zwx8981.github.io`, update `_config.yml`:
+   - `repository: your-username/your-repo`
+   - If you publish from a project repo (for example `https://username.github.io/repo-name/`), also set `baseurl: "/repo-name"`
+3. If you want a Chinese/English bilingual homepage later, duplicate the Publications/About pages and add language switching manually.
