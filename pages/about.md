@@ -15,11 +15,10 @@ From **07/2018 to 08/2022**, I worked with **Prof. Xiaokang Yang** as a postdoct
 
 My research focuses on **accurate and robust perceptual quality models** for evaluating and enhancing visual content. Representative topics include:
 
-- Blind / no-reference image quality assessment
-- Robust quality modeling across PGC, UGC, and AIGC content
-- Continual learning and cross-dataset generalization for BIQA
-- Vision-language based quality understanding
-- Human-aligned perceptual modeling for visual systems
+- Multimedia quality assessment
+- Computational photography
+- Perceptual optimization
+- Industrial vision analysis
 
 ## Openings & Notes
 
