@@ -1,12 +1,6 @@
 ---
 layout: default
 permalink: /
-remote_projects:
-  - LIQE
-  - UNIQUE
-  - BIQA_CL
-  - TSN-IQA
-  - DBCNN-PyTorch
 ---
 
 {% include landing.html %}
@@ -33,7 +27,6 @@ remote_projects:
       <div class="card-body">
         <h4 class="mb-3">Quick Links</h4>
         <p class="mb-2"><a href="{{ '/publications/' | relative_url }}"><strong>Publications</strong></a></p>
-        <p class="mb-2"><a href="{{ '/code/' | relative_url }}"><strong>Open-source Code</strong></a></p>
         <p class="mb-2"><a href="{{ '/about/' | relative_url }}"><strong>Biography &amp; Service</strong></a></p>
         <hr>
         <p class="mb-2">Email: <a href="mailto:zwx8981@sjtu.edu.cn">zwx8981@sjtu.edu.cn</a></p>
@@ -112,10 +105,3 @@ remote_projects:
   See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for journal articles, conference papers, preprints, and thesis information.
 </p>
 
-## Featured Open-source Repositories
-
-<p class="text-muted">
-  Representative codebases for blind image quality assessment, continual learning, perceptual robustness, and vision-language quality modeling.
-</p>
-
-{% include projects/index.html %}
