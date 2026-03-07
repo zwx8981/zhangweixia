@@ -1,0 +1,19 @@
+email:
+  url: "mailto:"
+  icon: fas fa-envelope
+  color: db4437
+
+github:
+  url: https://www.github.com/
+  icon: fab fa-github
+  color: 333333
+
+scholar:
+  url: https://scholar.google.com/citations?user=
+  icon: fas fa-graduation-cap
+  color: 4285f4
+
+researchgate:
+  url: https://www.researchgate.net/profile/
+  icon: fab fa-researchgate
+  color: 00ccbb

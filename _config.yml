@@ -1,0 +1,76 @@
+### Site Settings ###
+title: Weixia Zhang
+description: >-
+  Associate Research Scientist at the MoE Key Lab of Artificial Intelligence,
+  AI Institute, Shanghai Jiao Tong University. I work on perceptual quality
+  evaluation and enhancement for visual content, with interests in robust image
+  and video quality assessment, vision-language based quality understanding,
+  and human-aligned visual perception.
+baseurl: ""
+repository: zwx8981/zwx8981.github.io
+remote_theme: yousinix/portfolYOU@v2.3.0
+open_new_tab: true
+
+### Plugins ###
+plugins:
+  - jemoji
+
+### Navbar Settings ###
+nav_exclude:
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - pages/blog.html
+  - pages/projects.html
+
+### Author Info ###
+author:
+  name: Weixia Zhang
+  image: /assets/avatar.jpg
+  email: zwx8981@sjtu.edu.cn
+  github: zwx8981
+  scholar: KK2nLnQAAAAJ
+  researchgate: Weixia-Zhang-2
+
+### Posts ###
+permalink: /blog/:title
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+### Analytics ###
+analytics:
+  enabled: false
+  google:
+    tracking_id:
+
+### Buy me a coffee ###
+buymeacoffee:
+  enabled: false
+  username:
+  color: "#007bff"
+  message: "Thank you for visiting."
+  description: "Support me on Buy me a coffee!"
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
