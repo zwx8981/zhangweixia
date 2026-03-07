@@ -56,8 +56,8 @@ CVPR, ECCV, ICML, NeurIPS, ICLR, ACM MM, AAAI, ICME, WACV, and others.
 ## Contact
 
 - Email: **zwx8981@sjtu.edu.cn**
-- GitHub: **[zwx8981](https://github.com/zwx8981)**
-- Google Scholar: **[profile](https://scholar.google.com/citations?user=KK2nLnQAAAAJ)**
-- ResearchGate: **[profile](https://www.researchgate.net/profile/Weixia-Zhang-2)**
+- [GitHub](https://github.com/zwx8981)
+- [Google Scholar](https://scholar.google.com/citations?user=KK2nLnQAAAAJ)
+- [ResearchGate](https://www.researchgate.net/profile/Weixia-Zhang-2)
 
 {% include about/timeline.html %}
