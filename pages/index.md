@@ -43,6 +43,16 @@ permalink: /
 .home-bg li {
   text-shadow: 0 1px 2px rgba(255,255,255,0.18);
 }
+
+.pub-list {
+  width: 94%;
+}
+
+@media (min-width: 1200px) {
+  .pub-list {
+    width: 90%;
+  }
+}
 </style>
 
 <div class="home-bg">
@@ -81,71 +91,73 @@ permalink: /
   </div>
 </div>
 
-## Selected Publications
+<h2 class="mb-4 mt-5">Selected Publications</h2>
 
-<div class="list-group list-group-flush mb-4">
-  <div class="list-group-item px-0">
-    <div class="d-flex flex-wrap align-items-center mb-2">
-      <span class="badge badge-primary mr-2">TIP 2024</span>
-      <strong>Task-Specific Normalization for Continual Learning of Blind Image Quality Models</strong>
+<div class="pub-list mx-auto">
+  <div class="list-group list-group-flush mb-4">
+    <div class="list-group-item px-0">
+      <div class="d-flex flex-wrap align-items-center mb-2">
+        <span class="badge badge-primary mr-2">TIP 2024</span>
+        <strong>Task-Specific Normalization for Continual Learning of Blind Image Quality Models</strong>
+      </div>
+      <div class="text-muted small">Weixia Zhang, Kede Ma, Guangtao Zhai, Xiaokang Yang</div>
+      <div class="mt-2">
+        <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2107.13429">Paper</a>
+        <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/TSN-IQA">Code</a>
+      </div>
     </div>
-    <div class="text-muted small">Weixia Zhang, Kede Ma, Guangtao Zhai, Xiaokang Yang</div>
-    <div class="mt-2">
-      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2107.13429">Paper</a>
-      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/TSN-IQA">Code</a>
-    </div>
-  </div>
 
-  <div class="list-group-item px-0">
-    <div class="d-flex flex-wrap align-items-center mb-2">
-      <span class="badge badge-primary mr-2">TPAMI 2023</span>
-      <strong>Continual Learning for Blind Image Quality Assessment</strong>
+    <div class="list-group-item px-0">
+      <div class="d-flex flex-wrap align-items-center mb-2">
+        <span class="badge badge-primary mr-2">TPAMI 2023</span>
+        <strong>Continual Learning for Blind Image Quality Assessment</strong>
+      </div>
+      <div class="text-muted small">Weixia Zhang, Dingquan Li, Chao Ma, Guangtao Zhai, Xiaokang Yang, Kede Ma</div>
+      <div class="mt-2">
+        <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2102.09717">Paper</a>
+        <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/BIQA_CL">Code</a>
+      </div>
     </div>
-    <div class="text-muted small">Weixia Zhang, Dingquan Li, Chao Ma, Guangtao Zhai, Xiaokang Yang, Kede Ma</div>
-    <div class="mt-2">
-      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2102.09717">Paper</a>
-      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/BIQA_CL">Code</a>
-    </div>
-  </div>
 
-  <div class="list-group-item px-0">
-    <div class="d-flex flex-wrap align-items-center mb-2">
-      <span class="badge badge-primary mr-2">CVPR 2023</span>
-      <strong>Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective</strong>
+    <div class="list-group-item px-0">
+      <div class="d-flex flex-wrap align-items-center mb-2">
+        <span class="badge badge-primary mr-2">CVPR 2023</span>
+        <strong>Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective</strong>
+      </div>
+      <div class="text-muted small">Weixia Zhang, Guangtao Zhai, Wei Ying, Xiaokang Yang, Kede Ma</div>
+      <div class="mt-2">
+        <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2303.14968">Paper</a>
+        <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/LIQE">Code</a>
+      </div>
     </div>
-    <div class="text-muted small">Weixia Zhang, Guangtao Zhai, Wei Ying, Xiaokang Yang, Kede Ma</div>
-    <div class="mt-2">
-      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2303.14968">Paper</a>
-      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/LIQE">Code</a>
-    </div>
-  </div>
 
-  <div class="list-group-item px-0">
-    <div class="d-flex flex-wrap align-items-center mb-2">
-      <span class="badge badge-primary mr-2">NeurIPS 2022</span>
-      <strong>Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop</strong>
+    <div class="list-group-item px-0">
+      <div class="d-flex flex-wrap align-items-center mb-2">
+        <span class="badge badge-primary mr-2">NeurIPS 2022</span>
+        <strong>Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop</strong>
+      </div>
+      <div class="text-muted small">Weixia Zhang, Dingquan Li, Xiongkuo Min, Guangtao Zhai, Guodong Guo, Xiaokang Yang, Kede Ma</div>
+      <div class="mt-2">
+        <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2210.00933">Paper</a>
+        <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/PerceptualAttack_BIQA">Code</a>
+      </div>
     </div>
-    <div class="text-muted small">Weixia Zhang, Dingquan Li, Xiongkuo Min, Guangtao Zhai, Guodong Guo, Xiaokang Yang, Kede Ma</div>
-    <div class="mt-2">
-      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2210.00933">Paper</a>
-      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/PerceptualAttack_BIQA">Code</a>
-    </div>
-  </div>
 
-  <div class="list-group-item px-0">
-    <div class="d-flex flex-wrap align-items-center mb-2">
-      <span class="badge badge-primary mr-2">TIP 2021</span>
-      <strong>Uncertainty-aware Blind Image Quality Assessment in the Laboratory and Wild</strong>
-    </div>
-    <div class="text-muted small">Weixia Zhang, Kede Ma, Guangtao Zhai, Xiaokang Yang</div>
-    <div class="mt-2">
-      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2005.13983">Paper</a>
-      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/UNIQUE">Code</a>
+    <div class="list-group-item px-0">
+      <div class="d-flex flex-wrap align-items-center mb-2">
+        <span class="badge badge-primary mr-2">TIP 2021</span>
+        <strong>Uncertainty-aware Blind Image Quality Assessment in the Laboratory and Wild</strong>
+      </div>
+      <div class="text-muted small">Weixia Zhang, Kede Ma, Guangtao Zhai, Xiaokang Yang</div>
+      <div class="mt-2">
+        <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2005.13983">Paper</a>
+        <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/UNIQUE">Code</a>
+      </div>
     </div>
   </div>
 </div>
 
-<p>
+<p class="mt-3">
   See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for journal articles, conference papers, preprints, and thesis information.
 </p>
 
