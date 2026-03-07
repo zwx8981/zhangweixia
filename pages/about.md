@@ -2,28 +2,28 @@
 layout: page
 title: About
 permalink: /about/
-weight: 2
+weight: 3
 ---
 
-# About Me
+# Biography
 
 I am **Weixia Zhang (张维夏), Ph.D.**, an **Associate Research Scientist (副研究员)** at the **MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University**.
 
-From **July 2018 to August 2022**, I worked with **Prof. Xiaokang Yang** as a postdoctoral researcher. From **September 2022 to December 2023**, I continued in the same affiliation as a **Research Associate (助理研究员)**. I received my **Ph.D.** from the **DSP Laboratory, Electronic Information School, Wuhan University**, supervised by **Prof. Dexiang Deng**. Before that, I earned my **M.S.** from the **University of Rochester** and my **B.S.** from **Wuhan University**.
+From **07/2018 to 08/2022**, I worked with **Prof. Xiaokang Yang** as a postdoctoral researcher. From **09/2022 to 12/2023**, I continued in the same affiliation as a **Research Associate (助理研究员)**. I received my **Ph.D.** from the **DSP Laboratory, Electronic Information School, Wuhan University**, supervised by **Prof. Dexiang Deng**. Before that, I earned my **M.S.** from the **University of Rochester** and my **B.S.** from **Wuhan University**.
 
 ## Research Interests
 
-My research focuses on **accurate and robust perceptual quality models** for evaluating and enhancing visual content. I am especially interested in:
+My research focuses on **accurate and robust perceptual quality models** for evaluating and enhancing visual content. Representative topics include:
 
-- Image and video quality assessment
-- Blind / no-reference image quality modeling
+- Blind / no-reference image quality assessment
+- Robust quality modeling across PGC, UGC, and AIGC content
+- Continual learning and cross-dataset generalization for BIQA
 - Vision-language based quality understanding
-- Robust quality evaluation across PGC, UGC, and AIGC content
 - Human-aligned perceptual modeling for visual systems
 
-## News
+## Openings & Notes
 
-- **PhD recruitment:** Shanghai Jiao Tong University School of Computer Science is recruiting full-time PhD students for the **2026** intake.
+- **PhD recruitment:** Shanghai Jiao Tong University School of Computer Science is recruiting full-time PhD students for the **2026 intake**.
 - **Call for papers:** Special issue in *Electronics* — <https://www.mdpi.com/journal/electronics/special_issues/M162G37AP3>
 
 ## Selected Funding
@@ -35,7 +35,7 @@ My research focuses on **accurate and robust perceptual quality models** for eva
 
 ### Journal Reviewer
 
-TPAMI, IJCV, IEEE TIP, TCSVT, TMM, TNNLS, TVCG, J-STSP, PR, ACM TKDD, ACM TOMM, Information Fusion, Neurocomputing, JVCIR, SPIC, DSP, and others.
+TPAMI, IJCV, IEEE TIP, TCSVT, TMM, TNNLS, TVCG, J-STSP, PR, ACM TKDD, ACM TOMM, *Information Fusion*, *Neurocomputing*, JVCIR, SPIC, DSP, and others.
 
 ### Conference Reviewer
 
@@ -50,13 +50,14 @@ CVPR, ECCV, ICML, NeurIPS, ICLR, ACM MM, AAAI, ICME, WACV, and others.
 
 ## Talks
 
-- **2023/04** — 基于视觉语言关联的盲图像质量评价 — AITIME论道，CVPR2023预讲会-上海交大专场
-- **2021/06** — 跨失真场景的盲图像质量评价探索 — 白玉兰开源青年学者论坛
+- **2023/04** — [基于视觉语言关联的盲图像质量评价](https://search.bilibili.com/all?from_source=webtop_search&keyword=AITIME%E8%AE%BA%E9%81%93&search_source=5&spm_id_from=333.1007&vt=74232344) — AITIME论道，CVPR2023预讲会-上海交大专场
+- **2021/06** — [跨失真场景的盲图像质量评价探索](https://www.slidestalk.com/Baiyulan/9?video=) — 白玉兰开源青年学者论坛
 
 ## Contact
 
 - Email: **zwx8981@sjtu.edu.cn**
-- GitHub: **zwx8981**
-- Google Scholar and ResearchGate links are configured in the footer/social icons.
+- GitHub: **[zwx8981](https://github.com/zwx8981)**
+- Google Scholar: **[profile](https://scholar.google.com/citations?user=KK2nLnQAAAAJ)**
+- ResearchGate: **[profile](https://www.researchgate.net/profile/Weixia-Zhang-2)**
 
 {% include about/timeline.html %}

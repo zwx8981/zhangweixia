@@ -2,58 +2,172 @@
 layout: page
 title: Publications
 permalink: /publications/
-weight: 3
+weight: 2
 ---
 
 # Publications
 
-For a complete and frequently updated list, please also see my **Google Scholar** and **ResearchGate** profiles.
+<p>
+  For the most up-to-date record, please also see my
+  <a href="https://scholar.google.com/citations?user=KK2nLnQAAAAJ">Google Scholar</a>
+  and
+  <a href="https://www.researchgate.net/profile/Weixia-Zhang-2">ResearchGate</a>
+  profiles.
+</p>
 
-## Preprint
+## Selected First-Authored Publications
 
-1. Zhang, Weixia; Li, Dingquan; Zhai, Guangtao; Yang, Xiaokang; & Ma, Kede (2025). **When No-Reference Image Quality Models Meet MAP Estimation in Diffusion Latents.** *arXiv preprint arXiv:2403.06406*.
+<div class="list-group list-group-flush mb-4">
+  <div class="list-group-item px-0">
+    <div class="d-flex flex-wrap align-items-center mb-2">
+      <span class="badge badge-primary mr-2">TIP 2024</span>
+      <strong>Task-Specific Normalization for Continual Learning of Blind Image Quality Models</strong>
+    </div>
+    <div class="text-muted small mb-2">Weixia Zhang, Kede Ma, Guangtao Zhai, Xiaokang Yang</div>
+    <div class="small"><em>IEEE Transactions on Image Processing</em>, 33: 1898–1910, 2024.</div>
+    <div class="mt-2">
+      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2107.13429">Paper</a>
+      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/TSN-IQA">Code</a>
+    </div>
+  </div>
 
-## Journal Articles
+  <div class="list-group-item px-0">
+    <div class="d-flex flex-wrap align-items-center mb-2">
+      <span class="badge badge-primary mr-2">TPAMI 2023</span>
+      <strong>Continual Learning for Blind Image Quality Assessment</strong>
+    </div>
+    <div class="text-muted small mb-2">Weixia Zhang, Dingquan Li, Chao Ma, Guangtao Zhai, Xiaokang Yang, Kede Ma</div>
+    <div class="small"><em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 45(3): 2864–2878, 2023.</div>
+    <div class="mt-2">
+      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2102.09717">Paper</a>
+      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/BIQA_CL">Code</a>
+    </div>
+  </div>
 
-### First-authored papers
+  <div class="list-group-item px-0">
+    <div class="d-flex flex-wrap align-items-center mb-2">
+      <span class="badge badge-primary mr-2">CVPR 2023</span>
+      <strong>Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective</strong>
+    </div>
+    <div class="text-muted small mb-2">Weixia Zhang, Guangtao Zhai, Wei Ying, Xiaokang Yang, Kede Ma</div>
+    <div class="small"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition</em>, 2023.</div>
+    <div class="mt-2">
+      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2303.14968">Paper</a>
+      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/LIQE">Code</a>
+    </div>
+  </div>
 
-1. Zhang, Weixia; Ma, Kede; Zhai, Guangtao & Yang, Xiaokang (2024). **Task-Specific Normalization for Continual Learning of Blind Image Quality Models.** *IEEE Transactions on Image Processing (TIP)*, 33, 1898–1910.
-2. Zhang, Weixia; Li, Dingquan; Ma, Chao; Zhai, Guangtao; Yang, Xiaokang & Ma, Kede (2023). **Continual Learning for Blind Image Quality Assessment.** *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 45(3), 2864–2878.
-3. Zhang, Weixia; Ma, Kede; Zhai, Guangtao & Yang, Xiaokang (2021). **Uncertainty-aware blind image quality assessment in the laboratory and wild.** *IEEE Transactions on Image Processing (TIP)*, 30, 3474–3486.
-4. Zhang, Weixia; Ma, Chao; Wu, Qi; & Yang, Xiaokang (2020). **Language-guided Navigation via Cross-Modal Grounding and Alternate Adversarial Learning.** *IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).* 
-5. Zhang, Weixia; Ma, Kede; Yan, Jia; Deng, Dexiang & Wang, Zhou (2020). **Blind image quality assessment using a deep bilinear convolutional neural network.** *IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)*, 30(1), 36–47.
-6. Zhang, Weixia; Yan, Jia; Hu, Shiyong; Ma, Yang & Deng, Dexiang (2018). **Predicting perceptual quality of images in realistic scenario using deep filter banks.** *Journal of Electronic Imaging (JEI)*, 27(2), 023037.
-7. 张维夏, 邓德祥 & 颜佳 (2018). **基于多通道特征聚合的盲图像质量评价.** *华中科技大学学报（自然科学版）*.
-8. Zhang, Weixia; Yan, Jia; Shi, Wenxuan; Feng, Tianpeng & Deng, Dexiang (2017). **Refining deep convolutional features for improving fine-grained image recognition.** *EURASIP Journal on Image and Video Processing*, 2017(1), 1–10.
+  <div class="list-group-item px-0">
+    <div class="d-flex flex-wrap align-items-center mb-2">
+      <span class="badge badge-primary mr-2">NeurIPS 2022</span>
+      <strong>Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop</strong>
+    </div>
+    <div class="text-muted small mb-2">Weixia Zhang, Dingquan Li, Xiongkuo Min, Guangtao Zhai, Guodong Guo, Xiaokang Yang, Kede Ma</div>
+    <div class="small"><em>Advances in Neural Information Processing Systems</em>, 2022. Spotlight (5%).</div>
+    <div class="mt-2">
+      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2210.00933">Paper</a>
+      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/PerceptualAttack_BIQA">Code</a>
+    </div>
+  </div>
 
-### Co-authored papers
+  <div class="list-group-item px-0">
+    <div class="d-flex flex-wrap align-items-center mb-2">
+      <span class="badge badge-primary mr-2">TIP 2021</span>
+      <strong>Uncertainty-aware Blind Image Quality Assessment in the Laboratory and Wild</strong>
+    </div>
+    <div class="text-muted small mb-2">Weixia Zhang, Kede Ma, Guangtao Zhai, Xiaokang Yang</div>
+    <div class="small"><em>IEEE Transactions on Image Processing</em>, 30: 3474–3486, 2021.</div>
+    <div class="mt-2">
+      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2005.13983">Paper</a>
+      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/UNIQUE">Code</a>
+    </div>
+  </div>
 
-9. Yan, Yichao; Cheng, Yuhao; Chen, Zhuo; Peng, Yicong; Wu, Sijing; Zhang, Weitian; Li, Junjie; Li, Yixuan; Gao, Jinnan; Zhang, Weixia; Zhai, Guangtao & Yang, Xiaokang (2023). **基于神经网络的生成式数字人研究综述：表示、渲染与学习.** *中国科学：信息科学*.
-10. Li, Bowen; Zhang, Weixia; Tian, Meng; Zhai, Guangtao & Wang, Xianpei (2022). **Blindly Assess Quality of In-the-Wild Videos via Quality-aware Pre-training and Motion Perception.** *IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).* 
-11. 李博文，田猛，张维夏 & 王先培 (2021). **基于多层级信息稀疏表征的盲图像质量评价.** *华中科技大学学报（自然科学版）*.
-12. Li, Bowen; Tian, Meng; Zhang, Weixia; Yao, Hongtai, & Wang, Xianpei (2021). **Learning to predict the quality of distorted-then-compressed images via a deep neural network.** *Journal of Visual Communication and Image Representation (JVCIR)*, 76, 103004.
-13. Li, Bowen; Wang, Xianpei; Zhang, Weixia; Tian, Meng; & Yao, Hongtai (2020). **Dual Head Network for No-Reference Quality Assessment Towards Realistic Night-Time Images.** *IEEE Access*, 8, 158585–158599.
-14. Hu, Shiyong; Yan, Jia; Zhang, Weixia & Deng, Dexiang (2019). **No-reference quality assessment for contrast-altered images using an end-to-end deep framework.** *Journal of Electronic Imaging (JEI)*, 28(1), 013041.
-15. Ma, Yang; Zhang, Weixia; Yan, Jia; Fan, Cien & Shi, Wenxuan (2018). **Blind image quality assessment in multiple bandpass and redundancy domains.** *Digital Signal Processing (DSP)*, 80, 37–47.
-16. Feng, Tianpeng; Deng, Dexiang; Yan, Jia; Zhang, Weixia; Shi, Wenxuan & Zou, Lian (2016). **Sparse representation of salient regions for no-reference image quality assessment.** *International Journal of Advanced Robotic Systems*, 13(5), 1729881416669486.
+  <div class="list-group-item px-0">
+    <div class="d-flex flex-wrap align-items-center mb-2">
+      <span class="badge badge-primary mr-2">TCSVT 2020</span>
+      <strong>Blind Image Quality Assessment Using a Deep Bilinear Convolutional Neural Network</strong>
+    </div>
+    <div class="text-muted small mb-2">Weixia Zhang, Kede Ma, Jia Yan, Dexiang Deng, Zhou Wang</div>
+    <div class="small"><em>IEEE Transactions on Circuits and Systems for Video Technology</em>, 30(1): 36–47, 2020.</div>
+    <div class="mt-2">
+      <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/1907.02665">Paper</a>
+      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/DBCNN-PyTorch">Code (PyTorch)</a>
+      <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/DBCNN">Code (MATLAB)</a>
+    </div>
+  </div>
+</div>
 
-## Conference Papers
+## Full List
 
-### First-authored papers
+<details open>
+  <summary><strong>Preprint</strong></summary>
+  <div class="mt-3">
+    <ol>
+      <li>
+        Zhang, Weixia; Li, Dingquan; Zhai, Guangtao; Yang, Xiaokang; &amp; Ma, Kede (2025).
+        <strong>When No-Reference Image Quality Models Meet MAP Estimation in Diffusion Latents.</strong>
+        <em>arXiv preprint arXiv:2403.06406</em>.
+        <a href="https://arxiv.org/abs/2403.06406">[Paper]</a>
+      </li>
+    </ol>
+  </div>
+</details>
 
-1. Zhang, Weixia; Zhu, Chengguang; Gao, Jingnan; Yan, Yichao; Zhai, Guangtao; & Yang, Xiaokang (2024). **A Comparative Study of Perceptual Quality Metrics for Audio-driven Talking Head Videos.** In *2024 IEEE International Conference on Image Processing (ICIP).* 
-2. Zhang, Weixia; Zhai, Guangtao; Ying Wei; Yang, Xiaokang & Ma, Kede (2023). **Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective.** In *IEEE Conference on Computer Vision and Pattern Recognition (CVPR).* 
-3. Zhang, Weixia; Li, Dingquan; Min, Xiongkuo; Zhai, Guangtao; Guo, Guodong; Yang, Xiaokang & Ma, Kede (2022). **Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop.** In *Conference on Neural Information Processing Systems (NeurIPS)*, spotlight (5%).
-4. Zhang, Weixia; Ma, Kede; Zhai, Guangtao & Yang, Xiaokang (2020). **Learning to blindly assess image quality in the laboratory and wild.** In *2020 IEEE International Conference on Image Processing (ICIP)*, 111–115.
-5. Zhang, Weixia; Zhai, Guangtao; Yang, Xiaokang & Yan, Jia (2019). **Hierarchical features fusion for image aesthetics assessment.** In *2019 IEEE International Conference on Image Processing (ICIP)*, 3771–3775.
+<details open>
+  <summary><strong>Journal Articles</strong></summary>
+  <div class="mt-3">
+    <h4>First-authored papers</h4>
+    <ol>
+      <li><strong>Task-Specific Normalization for Continual Learning of Blind Image Quality Models.</strong> <em>IEEE TIP</em>, 2024. <a href="https://arxiv.org/abs/2107.13429">[Paper]</a> <a href="https://github.com/zwx8981/TSN-IQA">[Code]</a></li>
+      <li><strong>Continual Learning for Blind Image Quality Assessment.</strong> <em>IEEE TPAMI</em>, 2023. <a href="https://arxiv.org/abs/2102.09717">[Paper]</a> <a href="https://github.com/zwx8981/BIQA_CL">[Code]</a></li>
+      <li><strong>Uncertainty-aware blind image quality assessment in the laboratory and wild.</strong> <em>IEEE TIP</em>, 2021. <a href="https://arxiv.org/abs/2005.13983">[Paper]</a> <a href="https://github.com/zwx8981/UNIQUE">[Code]</a></li>
+      <li><strong>Language-guided Navigation via Cross-Modal Grounding and Alternate Adversarial Learning.</strong> <em>IEEE TCSVT</em>, 2020. <a href="https://arxiv.org/abs/1906.02799">[Paper]</a></li>
+      <li><strong>Blind image quality assessment using a deep bilinear convolutional neural network.</strong> <em>IEEE TCSVT</em>, 2020. <a href="https://arxiv.org/abs/1907.02665">[Paper]</a> <a href="https://github.com/zwx8981/DBCNN-PyTorch">[PyTorch]</a> <a href="https://github.com/zwx8981/DBCNN">[MATLAB]</a></li>
+      <li><strong>Predicting perceptual quality of images in realistic scenario using deep filter banks.</strong> <em>Journal of Electronic Imaging</em>, 2018. <a href="https://doi.org/10.1117/1.JEI.27.2.023037">[Paper]</a></li>
+      <li><strong>基于多通道特征聚合的盲图像质量评价.</strong> <em>华中科技大学学报（自然科学版）</em>, 2018.</li>
+      <li><strong>Refining deep convolutional features for improving fine-grained image recognition.</strong> <em>EURASIP Journal on Image and Video Processing</em>, 2017. <a href="https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-017-0166-4">[Paper]</a></li>
+    </ol>
 
-### Co-authored papers
+    <h4>Co-authored papers</h4>
+    <ol start="9">
+      <li><strong>基于神经网络的生成式数字人研究综述：表示、渲染与学习.</strong> <em>中国科学：信息科学</em>, 2023. <a href="https://engine.scichina.com/doi/10.1360/SSI-2023-0179">[Paper]</a></li>
+      <li><strong>Blindly Assess Quality of In-the-Wild Videos via Quality-aware Pre-training and Motion Perception.</strong> <em>IEEE TCSVT</em>, 2022. <a href="https://arxiv.org/abs/2202.10073">[Paper]</a> <a href="https://github.com/zwx8981/TCSVT-2022-BVQA">[Code]</a></li>
+      <li><strong>基于多层级信息稀疏表征的盲图像质量评价.</strong> <em>华中科技大学学报（自然科学版）</em>, 2021.</li>
+      <li><strong>Learning to predict the quality of distorted-then-compressed images via a deep neural network.</strong> <em>JVCIR</em>, 2021.</li>
+      <li><strong>Dual Head Network for No-Reference Quality Assessment Towards Realistic Night-Time Images.</strong> <em>IEEE Access</em>, 2020.</li>
+      <li><strong>No-reference quality assessment for contrast-altered images using an end-to-end deep framework.</strong> <em>Journal of Electronic Imaging</em>, 2019.</li>
+      <li><strong>Blind image quality assessment in multiple bandpass and redundancy domains.</strong> <em>Digital Signal Processing</em>, 2018.</li>
+      <li><strong>Sparse representation of salient regions for no-reference image quality assessment.</strong> <em>International Journal of Advanced Robotic Systems</em>, 2016.</li>
+    </ol>
+  </div>
+</details>
 
-6. Wu, Haoning; Zhang, Zicheng; Zhang, Weixia; Chen, Chaofeng; Liao, Liang; Li, Chunyi; Gao, Yixuan; Wang, Annan; Zhang, Erli; Sun, Wenxiu; Yan, Qiong; Min, Xiongkuo; Zhai, Guangtao; & Lin, Weisi (2024). **Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels.** In *2024 International Conference on Machine Learning (ICML)*, 54015–54029.
-7. Yi, Xunpeng; Wang, Yuxuan; Zhao, Yizhen; Yan, Jia & Zhang, Weixia (2023). **Llieformer: A Low-Light Image Enhancement Transformer Network with a Degraded Restoration Model.** In *IEEE International Conference on Image Processing (ICIP)*, 1195–1199.
-8. Li, Bowen; Zhang, Weixia (corresponding author); Tian, Meng; Jiang, Jiu; Zhai, Guangtao & Wang, Xianpei (2022). **Learning a blind quality evaluator for UGC videos in perceptually relevant domains.** In *IEEE Conference on Multimedia and Expo (ICME).* 
-9. Yan, Jia; Zhang, Weixia & Feng, Tianpeng (2016). **Blind image quality assessment based on natural redundancy statistics.** In *Asian Conference on Computer Vision (ACCV)*, 3–18.
+<details open>
+  <summary><strong>Conference Papers</strong></summary>
+  <div class="mt-3">
+    <h4>First-authored papers</h4>
+    <ol>
+      <li><strong>A Comparative Study of Perceptual Quality Metrics for Audio-driven Talking Head Videos.</strong> <em>IEEE ICIP</em>, 2024. <a href="https://arxiv.org/abs/2403.06421">[Paper]</a> <a href="https://github.com/zwx8981/ADTH-QA">[Code]</a></li>
+      <li><strong>Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective.</strong> <em>CVPR</em>, 2023. <a href="https://arxiv.org/abs/2303.14968">[Paper]</a> <a href="https://github.com/zwx8981/LIQE">[Code]</a></li>
+      <li><strong>Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop.</strong> <em>NeurIPS</em>, 2022, spotlight (5%). <a href="https://arxiv.org/abs/2210.00933">[Paper]</a> <a href="https://github.com/zwx8981/PerceptualAttack_BIQA">[Code]</a></li>
+      <li><strong>Learning to blindly assess image quality in the laboratory and wild.</strong> <em>ICIP</em>, 2020. <a href="https://arxiv.org/abs/2005.13983">[Paper]</a> <a href="https://github.com/zwx8981/UNIQUE">[Code]</a></li>
+      <li><strong>Hierarchical features fusion for image aesthetics assessment.</strong> <em>ICIP</em>, 2019. <a href="https://github.com/zwx8981/IAA_project">[Code]</a></li>
+    </ol>
 
-## Thesis
+    <h4>Co-authored papers</h4>
+    <ol start="6">
+      <li><strong>Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels.</strong> <em>ICML</em>, 2024. <a href="https://arxiv.org/abs/2312.17090">[Paper]</a> <a href="https://github.com/Q-Future/Q-Align">[Code]</a></li>
+      <li><strong>Llieformer: A Low-Light Image Enhancement Transformer Network with a Degraded Restoration Model.</strong> <em>ICIP</em>, 2023.</li>
+      <li><strong>Learning a blind quality evaluator for UGC videos in perceptually relevant domains.</strong> <em>ICME</em>, 2022. <a href="https://github.com/zwx8981/TCSVT-2022-BVQA">[Code]</a></li>
+      <li><strong>Blind image quality assessment based on natural redundancy statistics.</strong> <em>ACCV</em>, 2016.</li>
+    </ol>
+  </div>
+</details>
 
-- 张维夏. **基于特征聚合和数据驱动的盲图像质量评价**.
+<details>
+  <summary><strong>Thesis</strong></summary>
+  <div class="mt-3">
+    <p>张维夏. <strong>基于特征聚合和数据驱动的盲图像质量评价</strong>. <a href="https://kns.cnki.net/KCMS/detail/detail.aspx?dbname=CMFD202001&filename=1018876296.nh">[CNKI]</a></p>
+  </div>
+</details>
