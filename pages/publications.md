@@ -113,11 +113,11 @@ weight: 2
    W. Sun, **W. Zhang**, Y. Cao, L. Cao, J. Jia, Z. Chen, Z. Zhang, X. Min, G. Zhai.  
    *ECCV Workshops*, 2024.
 
-5. [**A Comparative Study of Perceptual Quality Metrics for Audio-driven Talking Head Videos**](https://arxiv.org/abs/2403.06421)  
+5. [**A Comparative Study of Perceptual Quality Metrics for Audio-driven Talking Head Videos**](https://ieeexplore.ieee.org/document/10647543)  
    **W. Zhang**, C. Zhu, J. Gao, Y. Yan, G. Zhai, X. Yang.  
    *ICIP*, 2024.
 
-6. [**Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels**](https://q-align.github.io/)  
+6. [**Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels**](https://dl.acm.org/doi/abs/10.5555/3692070.3694286)  
    H. Wu, Z. Zhang, **W. Zhang**, C. Chen, L. Liao, C. Li, Y. Gao, A. Wang, E. Zhang, et al.  
    *ICML*, 2024.
 
@@ -137,13 +137,13 @@ weight: 2
     C. Li, T. Kou, Y. Gao, Y. Cao, W. Sun, Z. Zhang, Y. Zhou, Z. Zhang, **W. Zhang**, et al.  
     *CVPR*, 2024.
 
-11. [**Task-Specific Normalization for Continual Learning of Blind Image Quality Models**](https://arxiv.org/abs/2107.13429)  
+11. [**Task-Specific Normalization for Continual Learning of Blind Image Quality Models**](https://ieeexplore.ieee.org/document/10462930)  
     **W. Zhang**, K. Ma, G. Zhai, X. Yang.  
     *IEEE Transactions on Image Processing*, 2024.
 
 ## 2023
 
-1. [**LLIEFormer: A Low-Light Image Enhancement Transformer Network with a Degraded Restoration Model**](https://github.com/xunpengyi/LLIEFormer)  
+1. [**LLIEFormer: A Low-Light Image Enhancement Transformer Network with a Degraded Restoration Model**](https://ieeexplore.ieee.org/document/10222840)  
    X. Yi, Y. Wang, Y. Zhao, J. Yan, **W. Zhang**.  
    *ICIP*, 2023.
 
@@ -165,7 +165,7 @@ weight: 2
    **W. Zhang**, D. Li, X. Min, G. Zhai, G. Guo, X. Yang, K. Ma.  
    *NeurIPS*, 2022.
 
-2. [**Learning a Blind Quality Evaluator for UGC Videos in Perceptually Relevant Domains**](https://dblp.org/rec/conf/icmcs/LiZTJZW22)  
+2. [**Learning a Blind Quality Evaluator for UGC Videos in Perceptually Relevant Domains**](https://ieeexplore.ieee.org/document/9859999)  
    B. Li, **W. Zhang**, M. Tian, J. Jiang, G. Zhai, X. Wang.  
    *ICME*, 2022.
 
@@ -207,7 +207,7 @@ weight: 2
 
 ## 2019
 
-1. [**Hierarchical Features Fusion for Image Aesthetics Assessment**](https://cmsworkshops.com/ICIP2019/Papers/ViewPaper.asp?PaperNum=1231)  
+1. [**Hierarchical Features Fusion for Image Aesthetics Assessment**](https://ieeexplore.ieee.org/document/8803599/)  
    **W. Zhang**, G. Zhai, X. Yang, J. Yan.  
    *ICIP*, 2019.
 
