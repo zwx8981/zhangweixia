@@ -65,15 +65,7 @@ permalink: /
     <p>
       I am an <strong>Associate Research Scientist</strong> at the <strong>MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University</strong>.
       My research focuses on <strong>perceptual quality evaluation and enhancement</strong> for visual content, spanning
-      <strong>PGC</strong>, <strong>UGC</strong>, and <strong>AIGC</strong> settings.
-    </p>
-    <p>
-      Recent work centers on <strong>blind / no-reference image quality assessment</strong>,
-      <strong>cross-dataset generalization</strong>, <strong>continual learning for BIQA</strong>,
-      <strong>vision-language quality understanding</strong>, and <strong>human-aligned perceptual modeling</strong>.
-    </p>
-    <p class="mb-0">
-      I am interested in building accurate and robust perceptual models that can better align machine decisions with human visual experience.
+      <strong>PGC</strong>, <strong>UGC</strong>, and <strong>AIGC</strong> scenarios. I am interested in building accurate and robust perceptual models that can better align machine intelligence with human value.
     </p>
   </div>
   <div class="col-lg-4">
