@@ -16,7 +16,7 @@ permalink: /
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(rgba(255,255,255,0.72), rgba(255,255,255,0.84)),
+    linear-gradient(rgba(255,255,255,0.58), rgba(255,255,255,0.68)),
     url('{{ "/assets/red-panda-home-bg.png" | relative_url }}') center center / cover no-repeat;
   z-index: 0;
 }
@@ -29,7 +29,7 @@ permalink: /
 .home-bg .card,
 .home-bg .jumbotron,
 .home-bg section {
-  background: rgba(255,255,255,0.80);
+  background: rgba(255,255,255,0.68);
   backdrop-filter: blur(6px);
   border-radius: 16px;
 }
@@ -58,6 +58,13 @@ permalink: /
   align-items: center;
 }
 
+.research-map-section {
+  background: transparent !important;
+  backdrop-filter: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
 .research-side {
   display: flex;
   flex-direction: column;
@@ -66,7 +73,7 @@ permalink: /
 
 .research-box {
   position: relative;
-  background: rgba(255,255,255,0.84);
+  background: rgba(255,255,255,0.60);
   backdrop-filter: blur(6px);
   border-radius: 18px;
   padding: 1rem 1.1rem;
