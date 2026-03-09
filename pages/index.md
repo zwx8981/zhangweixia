@@ -112,7 +112,7 @@ permalink: /
 }
 
 .research-map-section {
-  margin-top: 3.0rem;
+  margin-top: 6.0rem;
   background: transparent !important;
   backdrop-filter: none !important;
   border-radius: 0 !important;
