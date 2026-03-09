@@ -112,7 +112,7 @@ permalink: /
 }
 
 .research-map-section {
-  margin-top: 1.5rem;
+  margin-top: 3.0rem;
   background: transparent !important;
   backdrop-filter: none !important;
   border-radius: 0 !important;
@@ -261,15 +261,6 @@ permalink: /
   </div>
 </div>
 
-<div class="glass-panel research-overview-panel">
-  <h2>Research Overview</h2>
-  <p>
-    I am an <strong>Associate Research Scientist</strong> at the <strong>MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University</strong>.
-    My research focuses on <strong>perceptual quality evaluation and enhancement</strong> for visual content, spanning
-    <strong>PGC</strong>, <strong>UGC</strong>, and <strong>AIGC</strong> scenarios. I am interested in building accurate
-    and robust perceptual models that can better align machine intelligence with human value.
-  </p>
-</div>
 
 <div class="research-map-section">
   <div class="research-map-layout">
