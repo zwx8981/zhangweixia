@@ -266,7 +266,7 @@ permalink: /
   <div class="research-map-layout">
     <div class="research-side">
       <div class="research-box">
-        <h4>Multimedia Quality Assessment</h4>
+        <h4><strong>Multimedia Quality Assessment<\strong></h4>
         <p>
           Focusing on accurate and fair evaluation of multimedia quality, while also serving as loss functions,
           reward models, or real-time feedback signal in shaping various vision systems.
@@ -274,7 +274,7 @@ permalink: /
       </div>
 
       <div class="research-box">
-        <h4>Perceptual Optimization</h4>
+        <h4><strong>Perceptual Optimization<\strong></h4>
         <p>
           Working on existing visual content, seeking to enhance, restore, or edit images/videos to improve
           their perceived quality.
@@ -288,7 +288,7 @@ permalink: /
 
     <div class="research-side">
       <div class="research-box">
-        <h4>Computational Photography</h4>
+        <h4><strong>Computational Photography<\strong></h4>
         <p>
           Targeting the visual capture stage, aiming to produce high-quality images/videos directly at the
           moment of acquisition.
@@ -296,7 +296,7 @@ permalink: /
       </div>
 
       <div class="research-box">
-        <h4>Industrial Vision Analysis</h4>
+        <h4><strong>Industrial Vision Analysis<\strong></h4>
         <p>
           Extending quality assessment from alignment with human visual perception to alignment with task-specific
           goals, such as object defect detection and safety monitoring of workers.
