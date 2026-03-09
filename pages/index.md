@@ -27,7 +27,6 @@ permalink: /
 }
 
 .home-bg .card,
-.home-bg .list-group-item,
 .home-bg .jumbotron,
 .home-bg section {
   background: rgba(255,255,255,0.80);
@@ -44,13 +43,94 @@ permalink: /
   text-shadow: 0 1px 2px rgba(255,255,255,0.18);
 }
 
-.pub-list {
-  width: 94%;
+.research-map-section {
+  margin-top: 3rem;
+}
+
+.research-map-title {
+  margin-bottom: 1.5rem;
+}
+
+.research-map-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.research-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.research-box {
+  position: relative;
+  background: rgba(255,255,255,0.84);
+  backdrop-filter: blur(6px);
+  border-radius: 18px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.research-box h4 {
+  margin-bottom: 0.55rem;
+  font-size: 1.05rem;
+}
+
+.research-box p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.research-center {
+  display: flex;
+  justify-content: center;
+}
+
+.research-center img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 22px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.14);
 }
 
 @media (min-width: 1200px) {
-  .pub-list {
-    width: 90%;
+  .research-side:first-child .research-box::after {
+    content: "";
+    position: absolute;
+    right: -22px;
+    top: 50%;
+    width: 22px;
+    height: 2px;
+    background: rgba(255,255,255,0.85);
+    transform: translateY(-50%);
+  }
+
+  .research-side:last-child .research-box::before {
+    content: "";
+    position: absolute;
+    left: -22px;
+    top: 50%;
+    width: 22px;
+    height: 2px;
+    background: rgba(255,255,255,0.85);
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .research-map-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .research-center {
+    order: -1;
+  }
+
+  .research-side {
+    gap: 1rem;
   }
 }
 </style>
@@ -83,74 +163,50 @@ permalink: /
   </div>
 </div>
 
-<h2 class="mb-4 mt-5">Selected Publications</h2>
+<section class="research-map-section">
+  <h2 class="research-map-title">Research Directions</h2>
 
-<div class="pub-list mx-auto">
-  <div class="list-group list-group-flush mb-4">
-    <div class="list-group-item px-0">
-      <div class="d-flex flex-wrap align-items-center mb-2">
-        <span class="badge badge-primary mr-2">TIP 2024</span>
-        <strong>Task-Specific Normalization for Continual Learning of Blind Image Quality Models</strong>
+  <div class="research-map-layout">
+    <div class="research-side">
+      <div class="research-box">
+        <h4>Multimedia Quality Assessment</h4>
+        <p>
+          Focusing on accurate and fair evaluation of multimedia quality, while also serving as a loss function, reward model, or real-time feedback signal in shaping various vision systems.
+        </p>
       </div>
-      <div class="text-muted small">Weixia Zhang, Kede Ma, Guangtao Zhai, Xiaokang Yang</div>
-      <div class="mt-2">
-        <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2107.13429">Paper</a>
-        <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/TSN-IQA">Code</a>
+
+      <div class="research-box">
+        <h4>Perceptual Optimization</h4>
+        <p>
+          Working on existing visual content, seeking to enhance, restore, or edit images/videos to improve their perceived quality.
+        </p>
       </div>
     </div>
 
-    <div class="list-group-item px-0">
-      <div class="d-flex flex-wrap align-items-center mb-2">
-        <span class="badge badge-primary mr-2">TPAMI 2023</span>
-        <strong>Continual Learning for Blind Image Quality Assessment</strong>
-      </div>
-      <div class="text-muted small">Weixia Zhang, Dingquan Li, Chao Ma, Guangtao Zhai, Xiaokang Yang, Kede Ma</div>
-      <div class="mt-2">
-        <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2102.09717">Paper</a>
-        <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/BIQA_CL">Code</a>
-      </div>
+    <div class="research-center">
+      <img src="{{ '/assest/research_overview.png' | relative_url }}" alt="Research overview illustration">
     </div>
 
-    <div class="list-group-item px-0">
-      <div class="d-flex flex-wrap align-items-center mb-2">
-        <span class="badge badge-primary mr-2">CVPR 2023</span>
-        <strong>Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective</strong>
+    <div class="research-side">
+      <div class="research-box">
+        <h4>Computational Photography</h4>
+        <p>
+           Targeting the visual capture stage, aiming to produce high-quality images/videos directly at the moment of acquisition.
+        </p>
       </div>
-      <div class="text-muted small">Weixia Zhang, Guangtao Zhai, Wei Ying, Xiaokang Yang, Kede Ma</div>
-      <div class="mt-2">
-        <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2303.14968">Paper</a>
-        <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/LIQE">Code</a>
-      </div>
-    </div>
 
-    <div class="list-group-item px-0">
-      <div class="d-flex flex-wrap align-items-center mb-2">
-        <span class="badge badge-primary mr-2">NeurIPS 2022</span>
-        <strong>Perceptual Attacks of No-Reference Image Quality Models with Human-in-the-Loop</strong>
-      </div>
-      <div class="text-muted small">Weixia Zhang, Dingquan Li, Xiongkuo Min, Guangtao Zhai, Guodong Guo, Xiaokang Yang, Kede Ma</div>
-      <div class="mt-2">
-        <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2210.00933">Paper</a>
-        <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/PerceptualAttack_BIQA">Code</a>
-      </div>
-    </div>
-
-    <div class="list-group-item px-0">
-      <div class="d-flex flex-wrap align-items-center mb-2">
-        <span class="badge badge-primary mr-2">TIP 2021</span>
-        <strong>Uncertainty-aware Blind Image Quality Assessment in the Laboratory and Wild</strong>
-      </div>
-      <div class="text-muted small">Weixia Zhang, Kede Ma, Guangtao Zhai, Xiaokang Yang</div>
-      <div class="mt-2">
-        <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="https://arxiv.org/abs/2005.13983">Paper</a>
-        <a class="btn btn-sm btn-outline-dark mr-2 mb-2" href="https://github.com/zwx8981/UNIQUE">Code</a>
+      <div class="research-box">
+        <h4>Industrial Vision Analysis</h4>
+        <p>
+          Extending quality assessment from alignment with human visual perception to alignment with task-specific goals, such as object defect detection, safety monitoring of workers, etc.
+        </p>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<p class="mt-3">
-  See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for journal articles, conference papers, preprints, and thesis information.
+<p class="mt-4">
+  See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for more details.
 </p>
 
 </div>
