@@ -184,7 +184,7 @@ permalink: /
     </div>
 
     <div class="research-center">
-      <img src="{{ '/assest/research_overview.png' | relative_url }}" alt="Research overview illustration">
+      <img src="{{ '/assets/research_overview.png' | relative_url }}" alt="Research overview illustration">
     </div>
 
     <div class="research-side">
