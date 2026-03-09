@@ -34,7 +34,7 @@ My research focuses on **accurate and robust perceptual quality models** for eva
 
 ### Journal Reviewer
 
-TPAMI, IJCV, IEEE TIP, TCSVT, TMM, TVCG, J-STSP, PR, and others.
+TPAMI, IJCV, TIP, TCSVT, TMM, TVCG, J-STSP, PR, and others.
 
 ### Conference Reviewer
 
