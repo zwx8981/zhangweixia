@@ -34,11 +34,11 @@ My research focuses on **accurate and robust perceptual quality models** for eva
 
 ### Journal Reviewer
 
-TPAMI, IJCV, IEEE TIP, TCSVT, TMM, TNNLS, TVCG, J-STSP, PR, ACM TKDD, ACM TOMM, Information Fusion, Neurocomputing, JVCIR, SPIC, DSP, and others.
+TPAMI, IJCV, IEEE TIP, TCSVT, TMM, TVCG, J-STSP, PR, and others.
 
 ### Conference Reviewer
 
-CVPR, ECCV, ICML, NeurIPS, ICLR, ACM MM, AAAI, ICME, WACV, and others.
+CVPR, ECCV, ICML, NeurIPS, ICLR, ACM MM, AAAI, and others.
 
 ## Academic Community
 
