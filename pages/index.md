@@ -277,8 +277,8 @@ permalink: /
       <div class="research-box">
         <h4>Multimedia Quality Assessment</h4>
         <p>
-          Focusing on accurate and fair evaluation of multimedia quality, while also serving as a loss function,
-          reward model, or real-time feedback signal in shaping various vision systems.
+          Focusing on accurate and fair evaluation of multimedia quality, while also serving as loss functions,
+          reward models, or real-time feedback signal in shaping various vision systems.
         </p>
       </div>
 
