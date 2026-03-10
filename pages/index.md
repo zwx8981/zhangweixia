@@ -97,32 +97,8 @@ permalink: /
   margin-bottom: 0.7rem;
 }
 
-.visitor-row {
-  margin-top: 0.9rem;
-}
-
-.visitor-map-card {
-  padding: 0.8rem 0.95rem;
-  text-align: center;
-  width: 100%;
-  max-width: 240px;
-  margin-left: auto;
-}
-
-.visitor-map-card h4 {
-  margin-bottom: 0.55rem;
-  font-size: 0.95rem;
-}
-
-.visitor-map-card img {
-  width: 100%;
-  max-width: 170px;
-  height: auto;
-  border-radius: 8px;
-}
-
 .research-map-section {
-  margin-top: 2.2rem;
+  margin-top: 9rem;
   background: transparent !important;
   backdrop-filter: none !important;
   border-radius: 0 !important;
@@ -179,6 +155,23 @@ permalink: /
   margin-bottom: 0;
 }
 
+.page-visitor-counter {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 999;
+  line-height: 0;
+  opacity: 0.92;
+}
+
+.page-visitor-counter img {
+  width: 80px;
+  max-width: 95px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.10);
+}
+
 @media (min-width: 1200px) {
   .research-side:first-child .research-box::after {
     content: "";
@@ -217,11 +210,6 @@ permalink: /
     width: 150px;
     height: 150px;
   }
-
-  .visitor-map-card {
-    margin: 0 auto;
-    max-width: 220px;
-  }
 }
 
 @media (max-width: 1199.98px) {
@@ -235,6 +223,18 @@ permalink: /
 
   .research-side {
     gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-visitor-counter {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .page-visitor-counter img {
+    width: 78px;
+    max-width: 78px;
   }
 }
 </style>
@@ -272,20 +272,6 @@ permalink: /
         <p><a href="mailto:zwx8981@sjtu.edu.cn">Email</a></p>
         <p><a href="https://scholar.google.com/citations?user=KK2nLnQAAAAJ">Google Scholar</a></p>
         <p class="mb-0"><a href="https://github.com/zwx8981">GitHub</a></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="row visitor-row">
-    <div class="col-lg-8"></div>
-    <div class="col-lg-4">
-      <div class="glass-panel visitor-map-card">
-        <h4>Visitors</h4>
-        <a href="https://info.flagcounter.com/tfgq" target="_blank" rel="noopener noreferrer">
-          <img
-            src="https://s01.flagcounter.com/count/tfgq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_18/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
-            alt="Flag Counter">
-        </a>
       </div>
     </div>
   </div>
@@ -338,4 +324,12 @@ permalink: /
     See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for more details.
   </p>
 
+</div>
+
+<div class="page-visitor-counter">
+  <a href="https://info.flagcounter.com/tfgq" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://s01.flagcounter.com/count/tfgq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_18/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+      alt="Flag Counter">
+  </a>
 </div>
