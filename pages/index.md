@@ -97,22 +97,32 @@ permalink: /
   margin-bottom: 0.7rem;
 }
 
-.research-overview-panel {
-  margin-top: 1.25rem;
-  padding: 1.4rem 1.5rem;
+.visitor-row {
+  margin-top: 0.9rem;
 }
 
-.research-overview-panel h2 {
-  margin-bottom: 0.9rem;
+.visitor-map-card {
+  padding: 0.8rem 0.95rem;
+  text-align: center;
+  width: 100%;
+  max-width: 240px;
+  margin-left: auto;
 }
 
-.research-overview-panel p {
-  margin-bottom: 0;
-  line-height: 1.8;
+.visitor-map-card h4 {
+  margin-bottom: 0.55rem;
+  font-size: 0.95rem;
+}
+
+.visitor-map-card img {
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+  border-radius: 8px;
 }
 
 .research-map-section {
-  margin-top: 9rem;
+  margin-top: 2.2rem;
   background: transparent !important;
   backdrop-filter: none !important;
   border-radius: 0 !important;
@@ -169,28 +179,6 @@ permalink: /
   margin-bottom: 0;
 }
 
-.visitor-map-wrapper {
-  margin-top: 1.5rem;
-  display: flex;
-  justify-content: center;
-}
-
-.visitor-map-card {
-  padding: 1rem 1.25rem;
-  text-align: center;
-  min-width: 260px;
-}
-
-.visitor-map-card h4 {
-  margin-bottom: 0.75rem;
-}
-
-.visitor-map-card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
 @media (min-width: 1200px) {
   .research-side:first-child .research-box::after {
     content: "";
@@ -228,6 +216,11 @@ permalink: /
   .hero-avatar img {
     width: 150px;
     height: 150px;
+  }
+
+  .visitor-map-card {
+    margin: 0 auto;
+    max-width: 220px;
   }
 }
 
@@ -283,6 +276,20 @@ permalink: /
     </div>
   </div>
 
+  <div class="row visitor-row">
+    <div class="col-lg-8"></div>
+    <div class="col-lg-4">
+      <div class="glass-panel visitor-map-card">
+        <h4>Visitors</h4>
+        <a href="https://info.flagcounter.com/tfgq" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://s01.flagcounter.com/count/tfgq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_18/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+            alt="Flag Counter">
+        </a>
+      </div>
+    </div>
+  </div>
+
   <div class="research-map-section">
     <div class="research-map-layout">
       <div class="research-side">
@@ -330,16 +337,5 @@ permalink: /
   <p class="publications-note">
     See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for more details.
   </p>
-
-  <div class="visitor-map-wrapper">
-    <div class="glass-panel visitor-map-card">
-      <h4>Visitors</h4>
-      <a href="https://info.flagcounter.com/tfgq" target="_blank" rel="noopener noreferrer">
-        <img
-          src="https://s01.flagcounter.com/count/tfgq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_18/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
-          alt="Flag Counter">
-      </a>
-    </div>
-  </div>
 
 </div>
