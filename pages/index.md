@@ -112,7 +112,7 @@ permalink: /
 }
 
 .research-map-section {
-  margin-top: 9.0rem;
+  margin-top: 9rem;
   background: transparent !important;
   backdrop-filter: none !important;
   border-radius: 0 !important;
@@ -167,6 +167,28 @@ permalink: /
 .publications-note {
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+
+.visitor-map-wrapper {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.visitor-map-card {
+  padding: 1rem 1.25rem;
+  text-align: center;
+  min-width: 260px;
+}
+
+.visitor-map-card h4 {
+  margin-bottom: 0.75rem;
+}
+
+.visitor-map-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 @media (min-width: 1200px) {
@@ -226,88 +248,98 @@ permalink: /
 
 <div class="home-bg">
 
-<div class="row hero-row align-items-stretch">
-  <div class="col-lg-8">
-    <div class="glass-panel hero-panel">
-      <div class="hero-main">
-        <div class="hero-avatar">
-          <img src="{{ site.author.image }}" alt="{{ site.title }}">
+  <div class="row hero-row align-items-stretch">
+    <div class="col-lg-8">
+      <div class="glass-panel hero-panel">
+        <div class="hero-main">
+          <div class="hero-avatar">
+            <img src="{{ site.author.image }}" alt="{{ site.title }}">
+          </div>
+          <div class="hero-text">
+            <h1>{{ site.title }}</h1>
+            <p class="hero-subtitle">
+              <strong>Associate Research Scientist</strong><br>
+              MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University
+            </p>
+            <p class="hero-note">
+              Research on perceptual quality evaluation and enhancement for visual content,
+              spanning PGC, UGC, and AIGC scenarios.
+            </p>
+          </div>
         </div>
-        <div class="hero-text">
-          <h1>{{ site.title }}</h1>
-          <p class="hero-subtitle">
-            <strong>Associate Research Scientist</strong><br>
-            MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University
+      </div>
+    </div>
+
+    <div class="col-lg-4 mt-4 mt-lg-0">
+      <div class="glass-panel quick-links-panel">
+        <h4>Quick Links</h4>
+        <p><a href="{{ '/publications/' | relative_url }}"><strong>Publications</strong></a></p>
+        <p><a href="{{ '/about/' | relative_url }}"><strong>About</strong></a></p>
+        <hr>
+        <p><a href="mailto:zwx8981@sjtu.edu.cn">Email</a></p>
+        <p><a href="https://scholar.google.com/citations?user=KK2nLnQAAAAJ">Google Scholar</a></p>
+        <p class="mb-0"><a href="https://github.com/zwx8981">GitHub</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="research-map-section">
+    <div class="research-map-layout">
+      <div class="research-side">
+        <div class="research-box">
+          <h4><strong>Multimedia Quality Assessment</strong></h4>
+          <p>
+            Focusing on accurate and fair evaluation of multimedia quality, while also serving as loss functions,
+            reward models, or real-time feedback signal in shaping various vision systems.
           </p>
-          <p class="hero-note">
-            Research on perceptual quality evaluation and enhancement for visual content,
-            spanning PGC, UGC, and AIGC scenarios.
+        </div>
+
+        <div class="research-box">
+          <h4><strong>Perceptual Optimization</strong></h4>
+          <p>
+            Working on existing visual content, seeking to enhance, restore, or edit images/videos to improve
+            their perceived quality.
+          </p>
+        </div>
+      </div>
+
+      <div class="research-center">
+        <img src="{{ '/assets/research_overview.png' | relative_url }}" alt="Research overview illustration">
+      </div>
+
+      <div class="research-side">
+        <div class="research-box">
+          <h4><strong>Computational Photography</strong></h4>
+          <p>
+            Targeting the visual capture stage, aiming to produce high-quality images/videos directly at the
+            moment of acquisition.
+          </p>
+        </div>
+
+        <div class="research-box">
+          <h4><strong>Industrial Vision Analysis</strong></h4>
+          <p>
+            Extending quality assessment from alignment with human visual perception to alignment with task-specific
+            goals, such as object defect detection and safety monitoring of workers.
           </p>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="col-lg-4 mt-4 mt-lg-0">
-    <div class="glass-panel quick-links-panel">
-      <h4>Quick Links</h4>
-      <p><a href="{{ '/publications/' | relative_url }}"><strong>Publications</strong></a></p>
-      <p><a href="{{ '/about/' | relative_url }}"><strong>About</strong></a></p>
-      <hr>
-      <p><a href="mailto:zwx8981@sjtu.edu.cn">Email</a></p>
-      <p><a href="https://scholar.google.com/citations?user=KK2nLnQAAAAJ">Google Scholar</a></p>
-      <p class="mb-0"><a href="https://github.com/zwx8981">GitHub</a></p>
+  <p class="publications-note">
+    See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for more details.
+  </p>
+
+  <div class="visitor-map-wrapper">
+    <div class="glass-panel visitor-map-card">
+      <h4>Visitors</h4>
+      <a href="https://info.flagcounter.com/tfgq" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://s01.flagcounter.com/count/tfgq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_18/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+          alt="Flag Counter">
+      </a>
     </div>
   </div>
-</div>
-
-
-<div class="research-map-section">
-  <div class="research-map-layout">
-    <div class="research-side">
-      <div class="research-box">
-        <h4><strong>Multimedia Quality Assessment</strong><br></h4>
-        <p>
-          Focusing on accurate and fair evaluation of multimedia quality, while also serving as loss functions,
-          reward models, or real-time feedback signal in shaping various vision systems.
-        </p>
-      </div>
-
-      <div class="research-box">
-        <h4><strong>Perceptual Optimization</strong><br></h4>
-        <p>
-          Working on existing visual content, seeking to enhance, restore, or edit images/videos to improve
-          their perceived quality.
-        </p>
-      </div>
-    </div>
-
-    <div class="research-center">
-      <img src="{{ '/assets/research_overview.png' | relative_url }}" alt="Research overview illustration">
-    </div>
-
-    <div class="research-side">
-      <div class="research-box">
-        <h4><strong>Computational Photography</strong><br></h4>
-        <p>
-          Targeting the visual capture stage, aiming to produce high-quality images/videos directly at the
-          moment of acquisition.
-        </p>
-      </div>
-
-      <div class="research-box">
-        <h4><strong>Industrial Vision Analysis</strong><br></h4>
-        <p>
-          Extending quality assessment from alignment with human visual perception to alignment with task-specific
-          goals, such as object defect detection and safety monitoring of workers.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<p class="publications-note">
-  See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for more details.
-</p>
 
 </div>
