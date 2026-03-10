@@ -165,7 +165,7 @@ permalink: /
 }
 
 .page-visitor-counter img {
-  width: 80px;
+  width: 95px;
   max-width: 95px;
   height: auto;
   border-radius: 6px;
