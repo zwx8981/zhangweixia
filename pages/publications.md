@@ -17,11 +17,15 @@ weight: 2
 
 ## 2026
 
-1. [**Robust Low-Light Image Enhancement In the Wild via Data Synthesis and Generative Diffusion Prior**](https://www.sciencedirect.com/science/article/pii/S0031320326003018)  
+1. [**Unveiling the Modular Design of Text-to-Video Quality Assessment**]([https://www.sciencedirect.com/science/article/pii/S0031320326003018](https://ieeexplore.ieee.org/document/11431223))  
+   B. Zheng, **W. Zhang**, G. Zhai, X. Yang.  
+   *IEEE Transactions on Circuits and Systems for Video Technology*, 2026.
+
+2. [**Robust Low-Light Image Enhancement In the Wild via Data Synthesis and Generative Diffusion Prior**](https://www.sciencedirect.com/science/article/pii/S0031320326003018)  
    Z. Wang, Q. Lin, F. Liu, **W. Zhang**, W. Zhou.  
    *Pattern Recognition*, 2026.
 
-2. [**QualiRAG: Retrieval-Augmented Generation for Visual Quality Understanding**](https://arxiv.org/abs/2601.18195)  
+3. [**QualiRAG: Retrieval-Augmented Generation for Visual Quality Understanding**](https://arxiv.org/abs/2601.18195)  
    L. Cao, W. Sun, **W. Zhang**, X. Zhu, K. Zhang, J. Jia, D. Zhu, G. Zhai, X. Min.  
    *arXiv preprint*, 2026.
 
