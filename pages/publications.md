@@ -17,7 +17,7 @@ weight: 2
 
 ## 2026
 
-1. [**Unveiling the Modular Design of Text-to-Video Quality Assessment**]([https://www.sciencedirect.com/science/article/pii/S0031320326003018](https://ieeexplore.ieee.org/document/11431223))  
+1. [**Unveiling the Modular Design of Text-to-Video Quality Assessment**](https://ieeexplore.ieee.org/document/11431223)  
    B. Zheng, **W. Zhang**, G. Zhai, X. Yang.  
    *IEEE Transactions on Circuits and Systems for Video Technology*, 2026.
 
