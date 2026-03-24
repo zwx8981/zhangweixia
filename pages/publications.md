@@ -29,6 +29,10 @@ weight: 2
    L. Cao, W. Sun, **W. Zhang**, X. Zhu, K. Zhang, J. Jia, D. Zhu, G. Zhai, X. Min.  
    *arXiv preprint*, 2026.
 
+4. [**VQAThinker: Exploring Generalizable and Explainable Video Quality Assessment via Reinforcement Learning**](https://arxiv.org/abs/2508.06051)  
+   L. Cao, W. Sun, **W. Zhang**, X. Zhu, J. Jia, K. Zhang, D. Zhu, G. Zhai, X. Min.  
+   *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, 2026.
+
 ## 2025
 
 1. [**Evaluating Perceptual Color Preferences in Smartphone Photography: Dataset and Challenges**](https://dl.acm.org/doi/10.1145/3746027.3758227)  
@@ -43,59 +47,55 @@ weight: 2
    J. Chen, P. Cao, G. Zhai, X. Yang, **W. Zhang**.  
    *IEEE SMC*, 2025.
 
-4. [**VQAThinker: Exploring Generalizable and Explainable Video Quality Assessment via Reinforcement Learning**](https://arxiv.org/abs/2508.06051)  
-   L. Cao, W. Sun, **W. Zhang**, X. Zhu, J. Jia, K. Zhang, D. Zhu, G. Zhai, X. Min.  
-   *arXiv preprint*, 2025.
-
-5. [**Machine Learning–Based Prediction of Large-for-Gestational-Age Infants in Mothers With Gestational Diabetes Mellitus**](https://academic.oup.com/jcem/article/110/5/e1631/7714516)  
+4. [**Machine Learning–Based Prediction of Large-for-Gestational-Age Infants in Mothers With Gestational Diabetes Mellitus**](https://academic.oup.com/jcem/article/110/5/e1631/7714516)  
    M. Kang, C. Zhu, M. Lai, J. Weng, Y. Zhuang, H. He, Y. Qiu, Y. Wu, Z. Qi, et al.  
    *The Journal of Clinical Endocrinology & Metabolism*, 2025.
 
-6. [**Artificial Intelligence Algorithm for Preoperative Prediction of FIGO Stage in Ovarian Cancer Based on Clinical Features Integrated 18F-FDG PET/CT Metabolic and Radiomics Features**](https://link.springer.com/article/10.1007/s00432-025-06134-9)  
+5. [**Artificial Intelligence Algorithm for Preoperative Prediction of FIGO Stage in Ovarian Cancer Based on Clinical Features Integrated 18F-FDG PET/CT Metabolic and Radiomics Features**](https://link.springer.com/article/10.1007/s00432-025-06134-9)  
    S. Xu, C. Zhu, M. Wu, S. Gu, Y. Wu, S. Cheng, C. Wang, Y. Zhang, **W. Zhang**, et al.  
    *Journal of Cancer Research and Clinical Oncology*, 2025.
 
-7. [**When No-Reference Image Quality Models Meet MAP Estimation in Diffusion Latents**](https://arxiv.org/abs/2403.06406)  
+6. [**When No-Reference Image Quality Models Meet MAP Estimation in Diffusion Latents**](https://arxiv.org/abs/2403.06406)  
    **W. Zhang**, D. Li, G. Zhai, X. Yang, K. Ma.  
    *arXiv preprint*, 2025.
 
-8. [**VQualA 2025 Document Image Quality Assessment Challenge**](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Huang_VQualA_2025_Document_Image_Quality_Assessment_Challenge_ICCVW_2025_paper.html)  
+7. [**VQualA 2025 Document Image Quality Assessment Challenge**](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Huang_VQualA_2025_Document_Image_Quality_Assessment_Challenge_ICCVW_2025_paper.html)  
    F. Huang, X. Min, Z. Ma, X. Liu, C. W. Zhou, G. Zhai, J. Gao, R. Liu, Y. Peng, et al.  
    *ICCV Workshops*, 2025.
 
-9. [**VQualA 2025 Challenge on Visual Quality Comparison for Large Multimodal Models: Methods and Results**](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/papers/Zhu_VQualA_2025_Challenge_on_Visual_Quality_Comparison_for_Large_Multimodal_ICCVW_2025_paper.pdf)  
+8. [**VQualA 2025 Challenge on Visual Quality Comparison for Large Multimodal Models: Methods and Results**](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/papers/Zhu_VQualA_2025_Challenge_on_Visual_Quality_Comparison_for_Large_Multimodal_ICCVW_2025_paper.pdf)  
    H. Zhu, H. Wu, Z. Zhang, L. Zhu, Y. Li, P. Chen, S. Wang, C. W. Zhou, L. Cao, et al.  
    *ICCV Workshops*, 2025.
 
-10. [**VQualA 2025 Challenge on Image Super-Resolution Generated Content Quality Assessment: Methods and Results**](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Li_VQualA_2025_Challenge_on_Image_Super-Resolution_Generated_Content_Quality_Assessment_ICCVW_2025_paper.html)  
-    Y. Li, X. Li, C. W. Zhou, S. Xing, H. Amirpour, X. Hao, G. Yue, B. Zhao, W. Liu, et al.  
-    *ICCV Workshops*, 2025.
+9. [**VQualA 2025 Challenge on Image Super-Resolution Generated Content Quality Assessment: Methods and Results**](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Li_VQualA_2025_Challenge_on_Image_Super-Resolution_Generated_Content_Quality_Assessment_ICCVW_2025_paper.html)  
+   Y. Li, X. Li, C. W. Zhou, S. Xing, H. Amirpour, X. Hao, G. Yue, B. Zhao, W. Liu, et al.  
+   *ICCV Workshops*, 2025.
 
-11. [**VQualA 2025 Challenge on Engagement Prediction for Short Videos: Methods and Results**](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/papers/Li_VQualA_2025_Challenge_on_Engagement_Prediction_for_Short_Videos_Methods_ICCVW_2025_paper.pdf)  
+10. [**VQualA 2025 Challenge on Engagement Prediction for Short Videos: Methods and Results**](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/papers/Li_VQualA_2025_Challenge_on_Engagement_Prediction_for_Short_Videos_Methods_ICCVW_2025_paper.pdf)  
     D. Li, S. Ma, H. Hua, W. Li, J. Wang, C. W. Zhou, F. Guan, X. Li, Z. Yu, Y. Lu, et al.  
     *ICCV Workshops*, 2025.
 
-12. [**VQualA 2025 Challenge on Face Image Quality Assessment: Methods and Results**](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Ma_VQualA_2025_Challenge_on_Face_Image_Quality_Assessment_Methods_and_ICCVW_2025_paper.html)  
+11. [**VQualA 2025 Challenge on Face Image Quality Assessment: Methods and Results**](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Ma_VQualA_2025_Challenge_on_Face_Image_Quality_Assessment_Methods_and_ICCVW_2025_paper.html)  
     S. Ma, W.-T. Chen, Q. Gao, J. Wang, C. W. Zhou, W. Sun, **W. Zhang**, L. Cao, J. Jia, et al.  
     *ICCV Workshops*, 2025.
 
-13. [**Engagement Prediction of Short Videos with Large Multimodal Models**](https://arxiv.org/abs/2508.02516)  
+12. [**Engagement Prediction of Short Videos with Large Multimodal Models**](https://arxiv.org/abs/2508.02516)  
     W. Sun, L. Cao, Y. Cao, **W. Zhang**, W. Wen, K. Zhang, Z. Chen, F. Lu, X. Min, et al.  
     *ICCV Workshops*, 2025.
 
-14. [**Efficient Face Image Quality Assessment via Self-training and Knowledge Distillation**](https://arxiv.org/abs/2507.15709)  
+13. [**Efficient Face Image Quality Assessment via Self-training and Knowledge Distillation**](https://arxiv.org/abs/2507.15709)  
     W. Sun, **W. Zhang**, L. Cao, J. Jia, X. Zhu, D. Zhu, X. Min, G. Zhai.  
     *ICCV Workshops*, 2025.
 
-15. [**Multi-Dimensional Quality Assessment for UGC Videos via Modular Multi-Modal Vision-Language Models**](https://www.computer.org/csdl/proceedings-article/cvprw/2025/999400b548/2a1UHFaa4co)  
+14. [**Multi-Dimensional Quality Assessment for UGC Videos via Modular Multi-Modal Vision-Language Models**](https://www.computer.org/csdl/proceedings-article/cvprw/2025/999400b548/2a1UHFaa4co)  
     **W. Zhang**, B. Zheng, J. Chen, Z. Wang.  
     *CVPR Workshops*, 2025.
 
-16. [**NTIRE 2025 XGC Quality Assessment Challenge: Methods and Results**](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/html/Liu_NTIRE_2025_XGC_Quality_Assessment_Challenge_Methods_and_Results_CVPRW_2025_paper.html)  
+15. [**NTIRE 2025 XGC Quality Assessment Challenge: Methods and Results**](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/html/Liu_NTIRE_2025_XGC_Quality_Assessment_Challenge_Methods_and_Results_CVPRW_2025_paper.html)  
     X. Liu, X. Min, Q. Hu, X. Zhang, J. Guo, G. Zhai, S. Wang, Y. Zhou, L. Liu, J. Li, et al.  
     *CVPR Workshops*, 2025.
 
-17. [**NTIRE 2025 Challenge on Real-World Face Restoration: Methods and Results**](https://arxiv.org/abs/2504.14600)  
+16. [**NTIRE 2025 Challenge on Real-World Face Restoration: Methods and Results**](https://arxiv.org/abs/2504.14600)  
     Z. Chen, J. Wang, K. Liu, J. Gong, L. Sun, Z. Wu, R. Timofte, Y. Zhang, J. Zhang, et al.  
     *CVPR Workshops*, 2025.
 
