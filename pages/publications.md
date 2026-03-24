@@ -31,7 +31,7 @@ weight: 2
 
 4. [**VQAThinker: Exploring Generalizable and Explainable Video Quality Assessment via Reinforcement Learning**](https://arxiv.org/abs/2508.06051)  
    L. Cao, W. Sun, **W. Zhang**, X. Zhu, J. Jia, K. Zhang, D. Zhu, G. Zhai, X. Min.  
-   *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, 2026.
+   *AAAI*, 2026.
 
 ## 2025
 
