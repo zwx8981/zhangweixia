@@ -22,7 +22,7 @@ My research focuses on **accurate and robust perceptual quality models** for eva
 
 ## Openings & Notes
 
-- **PhD recruitment:** Shanghai Jiao Tong University School of Computer Science is recruiting full-time PhD students for the **2026 intake**.
+- **PhD recruitment:** Shanghai Jiao Tong University School of Computer Science is recruiting full-time PhD students for the **2026 Fall intake**.
 - **Call for papers:** Special issue in *Electronics* — <https://www.mdpi.com/journal/electronics/special_issues/M162G37AP3>
 
 ## Selected Funding
@@ -56,5 +56,3 @@ CVPR, ECCV, ICML, NeurIPS, ICLR, ACM MM, AAAI, and others.
 
 - Email: **zwx8981@sjtu.edu.cn**
 - [GitHub](https://github.com/zwx8981)
-- [Google Scholar](https://scholar.google.com/citations?user=KK2nLnQAAAAJ)
-- [ResearchGate](https://www.researchgate.net/profile/Weixia-Zhang-2)
