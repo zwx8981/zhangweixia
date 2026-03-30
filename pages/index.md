@@ -181,9 +181,8 @@ permalink: /
   line-height: 0;
 }
 
-.page-visitor-map-shell svg text:first-of-type {
+.page-visitor-map-shell svg text {
   font-size: 18px !important;
-  font-weight: 600 !important;
 }
 
 @media (min-width: 1200px) {
