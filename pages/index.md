@@ -176,7 +176,7 @@ permalink: /
   left: 50%;
   top: 0;
   width: 1000px;
-  transform: translateX(-50%) scale(0.22);
+  transform: translateX(-50%) scale(0.23);
   transform-origin: top center;
   line-height: 0;
 }
