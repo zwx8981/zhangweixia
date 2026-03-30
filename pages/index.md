@@ -165,7 +165,7 @@ permalink: /
 .page-visitor-map-shell {
   position: relative;
   width: 300px;
-  height: 82px;
+  height: 95px;
   overflow: hidden;
   border-radius: 10px;
   line-height: 0;
@@ -176,7 +176,7 @@ permalink: /
   left: 50%;
   top: 0;
   width: 1000px;
-  transform: translateX(-50%) scale(0.24);
+  transform: translateX(-50%) scale(0.22);
   transform-origin: top center;
   line-height: 0;
 }
