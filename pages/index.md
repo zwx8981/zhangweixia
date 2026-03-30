@@ -347,7 +347,7 @@ permalink: /
       <script
         type="text/javascript"
         id="mapmyvisitors"
-        src="//mapmyvisitors.com/map.js?d=UWJZsT5Cd6QONPhxbnNfgB6bFHglPXnxwrMUVUWsIkc&cl=ffffff&w=a">
+        src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=UWJZsT5Cd6QONPhxbnNfgB6bFHglPXnxwrMUVUWsIkc&co=09304c">
       </script>
     </div>
   </div>
