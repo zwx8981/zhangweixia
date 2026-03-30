@@ -181,6 +181,11 @@ permalink: /
   line-height: 0;
 }
 
+.page-visitor-map-shell svg text:first-of-type {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
 @media (min-width: 1200px) {
   .research-side:first-child .research-box::after {
     content: "";
