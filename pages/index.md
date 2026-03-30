@@ -155,12 +155,27 @@ permalink: /
   margin-bottom: 0;
 }
 
-.page-visitor-map {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.page-visitor-map-shell {
+  position: fixed;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  width: 360px;
+  height: 115px;
+  overflow: hidden;
+  z-index: 999;
+  border-radius: 12px;
+  line-height: 0;
+}
+
+.page-visitor-map-inner {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1000px;
+  transform: translateX(-50%) scale(0.32);
+  transform-origin: top center;
+  line-height: 0;
 }
 
 @media (min-width: 1200px) {
@@ -214,6 +229,20 @@ permalink: /
 
   .research-side {
     gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-visitor-map-shell {
+    width: 280px;
+    height: 88px;
+    bottom: 8px;
+  }
+
+  .page-visitor-map-inner {
+    width: 1000px;
+    transform: translateX(-50%) scale(0.24);
+    transform-origin: top center;
   }
 }
 </style>
@@ -303,12 +332,14 @@ permalink: /
     See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for more details.
   </p>
 
-  <div class="page-visitor-map">
+</div>
+
+<div class="page-visitor-map-shell">
+  <div class="page-visitor-map-inner">
     <script
       type="text/javascript"
       id="mapmyvisitors"
       src="//mapmyvisitors.com/map.js?d=UWJZsT5Cd6QONPhxbnNfgB6bFHglPXnxwrMUVUWsIkc&cl=ffffff&w=a">
     </script>
   </div>
-
 </div>
