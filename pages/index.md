@@ -155,21 +155,12 @@ permalink: /
   margin-bottom: 0;
 }
 
-.page-visitor-counter {
-  position: fixed;
-  right: 18px;
-  bottom: 18px;
-  z-index: 999;
-  line-height: 0;
-  opacity: 0.92;
-}
-
-.page-visitor-counter img {
-  width: 95px;
-  max-width: 95px;
-  height: auto;
-  border-radius: 6px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.10);
+.page-visitor-map {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @media (min-width: 1200px) {
@@ -223,18 +214,6 @@ permalink: /
 
   .research-side {
     gap: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .page-visitor-counter {
-    right: 10px;
-    bottom: 10px;
-  }
-
-  .page-visitor-counter img {
-    width: 78px;
-    max-width: 78px;
   }
 }
 </style>
@@ -324,12 +303,12 @@ permalink: /
     See the <a href="{{ '/publications/' | relative_url }}"><strong>full publications list</strong></a> for more details.
   </p>
 
-</div>
+  <div class="page-visitor-map">
+    <script
+      type="text/javascript"
+      id="mapmyvisitors"
+      src="//mapmyvisitors.com/map.js?d=UWJZsT5Cd6QONPhxbnNfgB6bFHglPXnxwrMUVUWsIkc&cl=ffffff&w=a">
+    </script>
+  </div>
 
-<div class="page-visitor-counter">
-  <a href="https://info.flagcounter.com/tfgq" target="_blank" rel="noopener noreferrer">
-    <img
-      src="https://s01.flagcounter.com/count/tfgq/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_18/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
-      alt="Flag Counter">
-  </a>
 </div>
