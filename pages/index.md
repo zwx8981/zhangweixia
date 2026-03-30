@@ -155,16 +155,19 @@ permalink: /
   margin-bottom: 0;
 }
 
+.page-visitor-map-wrap {
+  margin: 1rem auto 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .page-visitor-map-shell {
-  position: fixed;
-  left: 50%;
-  bottom: 10px;
-  transform: translateX(-50%);
-  width: 360px;
-  height: 115px;
+  position: relative;
+  width: 300px;
+  height: 82px;
   overflow: hidden;
-  z-index: 999;
-  border-radius: 12px;
+  border-radius: 10px;
   line-height: 0;
 }
 
@@ -173,7 +176,7 @@ permalink: /
   left: 50%;
   top: 0;
   width: 1000px;
-  transform: translateX(-50%) scale(0.32);
+  transform: translateX(-50%) scale(0.24);
   transform-origin: top center;
   line-height: 0;
 }
@@ -233,15 +236,19 @@ permalink: /
 }
 
 @media (max-width: 768px) {
+  .page-visitor-map-wrap {
+    margin-top: 0.8rem;
+    margin-bottom: 0.6rem;
+  }
+
   .page-visitor-map-shell {
-    width: 280px;
-    height: 88px;
-    bottom: 8px;
+    width: 240px;
+    height: 64px;
   }
 
   .page-visitor-map-inner {
     width: 1000px;
-    transform: translateX(-50%) scale(0.24);
+    transform: translateX(-50%) scale(0.19);
     transform-origin: top center;
   }
 }
@@ -334,12 +341,14 @@ permalink: /
 
 </div>
 
-<div class="page-visitor-map-shell">
-  <div class="page-visitor-map-inner">
-    <script
-      type="text/javascript"
-      id="mapmyvisitors"
-      src="//mapmyvisitors.com/map.js?d=UWJZsT5Cd6QONPhxbnNfgB6bFHglPXnxwrMUVUWsIkc&cl=ffffff&w=a">
-    </script>
+<div class="page-visitor-map-wrap">
+  <div class="page-visitor-map-shell">
+    <div class="page-visitor-map-inner">
+      <script
+        type="text/javascript"
+        id="mapmyvisitors"
+        src="//mapmyvisitors.com/map.js?d=UWJZsT5Cd6QONPhxbnNfgB6bFHglPXnxwrMUVUWsIkc&cl=ffffff&w=a">
+      </script>
+    </div>
   </div>
 </div>
