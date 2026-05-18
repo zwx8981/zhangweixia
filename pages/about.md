@@ -22,7 +22,7 @@ My research focuses on **accurate and robust perceptual quality models** for eva
 
 ## Openings & Notes
 
-- **PhD recruitment:** Shanghai Jiao Tong University School of Computer Science is recruiting full-time PhD students for the **2026 Fall intake**.
+- **PhD recruitment:** 2026秋季入学博士名额已满.
 - **Call for papers:** Special issue in *Electronics* — <https://www.mdpi.com/journal/electronics/special_issues/M162G37AP3>
 
 ## Selected Funding
