@@ -17,19 +17,31 @@ weight: 2
 
 ## 2026
 
-1. [**Unveiling the Modular Design of Text-to-Video Quality Assessment**](https://ieeexplore.ieee.org/document/11431223)  
+1. [**NTIRE 2026 Challenge on Efficient Low Light Image Enhancement: Methods and Results**](https://arxiv.org/abs/2605.02212)  
+   J. Yan, C. Tu, **W. Zhang**, Z. Wang, P. Cao, Q. Lin, Y. Fang, X. Liu, Z. Wu, Z. Zhou, R. Timofte.  
+   *CVPR Workshops*, 2026.
+
+2. [**NTIRE 2026 The 3rd Restore Any Image Model (RAIM) Challenge: Professional Image Quality Assessment (Track 1)**](https://arxiv.org/abs/2604.12512)  
+   G. Qin, J. Liang, B. Zhang, L. Qu, Y.-n. Guan, H. Zeng, L. Zhang, R. Timofte, et al.  
+   *CVPR Workshops*, 2026.
+
+3. [**LoViF 2026 Challenge on Human-oriented Semantic Image Quality Assessment: Methods and Results**](https://arxiv.org/abs/2604.11207)  
+   X. Li, D. Xu, W. Luo, G. Xiang, H. Li, C. Zhuang, Z. Chen, J. Guan, W. Li, **W. Zhang**, et al.  
+   *CVPR Workshops*, 2026.
+
+4. [**Unveiling the Modular Design of Text-to-Video Quality Assessment**](https://ieeexplore.ieee.org/document/11431223)  
    B. Zheng, **W. Zhang**, G. Zhai, X. Yang.  
    *IEEE Transactions on Circuits and Systems for Video Technology*, 2026.
 
-2. [**Robust Low-Light Image Enhancement In the Wild via Data Synthesis and Generative Diffusion Prior**](https://www.sciencedirect.com/science/article/pii/S0031320326003018)  
+5. [**Robust Low-Light Image Enhancement In the Wild via Data Synthesis and Generative Diffusion Prior**](https://www.sciencedirect.com/science/article/pii/S0031320326003018)  
    Z. Wang, Q. Lin, F. Liu, **W. Zhang**, W. Zhou.  
    *Pattern Recognition*, 2026.
 
-3. [**QualiRAG: Retrieval-Augmented Generation for Visual Quality Understanding**](https://arxiv.org/abs/2601.18195)  
+6. [**QualiRAG: Retrieval-Augmented Generation for Visual Quality Understanding**](https://arxiv.org/abs/2601.18195)  
    L. Cao, W. Sun, **W. Zhang**, X. Zhu, K. Zhang, J. Jia, D. Zhu, G. Zhai, X. Min.  
    *arXiv preprint*, 2026.
 
-4. [**VQAThinker: Exploring Generalizable and Explainable Video Quality Assessment via Reinforcement Learning**](https://arxiv.org/abs/2508.06051)  
+7. [**VQAThinker: Exploring Generalizable and Explainable Video Quality Assessment via Reinforcement Learning**](https://arxiv.org/abs/2508.06051)  
    L. Cao, W. Sun, **W. Zhang**, X. Zhu, J. Jia, K. Zhang, D. Zhu, G. Zhai, X. Min.  
    *AAAI*, 2026.
 
