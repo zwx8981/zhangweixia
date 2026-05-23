@@ -156,18 +156,53 @@ permalink: /
 }
 
 .page-visitor-map-wrap {
-  margin: 1rem auto 0.8rem;
+  margin: 2.25rem auto 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.page-visitor-map-card {
+  width: min(100%, 560px);
+  padding: 1rem 1rem 1.1rem;
+  background: rgba(255,255,255,0.92);
+  border: 1px solid rgba(9,48,76,0.16);
+  border-radius: 16px;
+  box-shadow: 0 10px 26px rgba(9,48,76,0.18);
+  text-align: center;
+}
+
+.page-visitor-map-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-bottom: 0.7rem;
+  color: #09304c;
+  font-size: 0.96rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.page-visitor-map-title::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #2f80ed;
+  box-shadow: 0 0 0 4px rgba(47,128,237,0.16);
+}
+
 .page-visitor-map-shell {
   position: relative;
-  width: 300px;
-  height: 95px;
+  width: 460px;
+  max-width: 100%;
+  height: 152px;
   overflow: hidden;
-  border-radius: 10px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background: #09304c;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.18);
   line-height: 0;
 }
 
@@ -176,7 +211,7 @@ permalink: /
   left: 50%;
   top: 0;
   width: 1000px;
-  transform: translateX(-50%) scale(0.23);
+  transform: translateX(-50%) scale(0.42);
   transform-origin: top center;
   line-height: 0;
 }
@@ -241,18 +276,24 @@ permalink: /
 
 @media (max-width: 768px) {
   .page-visitor-map-wrap {
-    margin-top: 0.8rem;
-    margin-bottom: 0.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .page-visitor-map-card {
+    width: min(100%, 360px);
+    padding: 0.85rem;
+    border-radius: 14px;
   }
 
   .page-visitor-map-shell {
-    width: 240px;
-    height: 64px;
+    width: 320px;
+    height: 108px;
   }
 
   .page-visitor-map-inner {
     width: 1000px;
-    transform: translateX(-50%) scale(0.19);
+    transform: translateX(-50%) scale(0.29);
     transform-origin: top center;
   }
 }
@@ -346,13 +387,16 @@ permalink: /
 </div>
 
 <div class="page-visitor-map-wrap">
-  <div class="page-visitor-map-shell">
-    <div class="page-visitor-map-inner">
-      <script
-        type="text/javascript"
-        id="mapmyvisitors"
-        src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=UWJZsT5Cd6QONPhxbnNfgB6bFHglPXnxwrMUVUWsIkc&co=09304c">
-      </script>
+  <div class="page-visitor-map-card" aria-label="Visitor map">
+    <div class="page-visitor-map-title">Visitor Map</div>
+    <div class="page-visitor-map-shell">
+      <div class="page-visitor-map-inner">
+        <script
+          type="text/javascript"
+          id="mapmyvisitors"
+          src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=UWJZsT5Cd6QONPhxbnNfgB6bFHglPXnxwrMUVUWsIkc&co=09304c">
+        </script>
+      </div>
     </div>
   </div>
 </div>
