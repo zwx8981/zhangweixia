@@ -314,7 +314,7 @@ permalink: /
               AI Institute, School of Computer Science, Shanghai Jiao Tong University
             </p>
             <p class="hero-note">
-              Research on perceptual quality evaluation and enhancement for visual content.
+              Evaluate outputs. Improve experiences. Optimize for life.
             </p>
           </div>
         </div>
