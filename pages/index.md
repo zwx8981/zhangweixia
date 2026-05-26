@@ -310,12 +310,11 @@ permalink: /
           <div class="hero-text">
             <h1>{{ site.title }}</h1>
             <p class="hero-subtitle">
-              <strong>Associate Research Scientist</strong><br>
-              MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University
+              <strong>Associate Research Scientist (副研究员)</strong><br>
+              AI Institute, School of Computer Science, Shanghai Jiao Tong University
             </p>
             <p class="hero-note">
-              Research on perceptual quality evaluation and enhancement for visual content,
-              spanning PGC, UGC, and AIGC scenarios.
+              Research on perceptual quality evaluation and enhancement for visual content.
             </p>
           </div>
         </div>
