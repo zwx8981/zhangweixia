@@ -22,7 +22,7 @@ My research focuses on **accurate and robust perceptual quality models** for eva
 
 ## Openings & Notes
 
-- **PhD recruitment:** 2026秋季入学博士名额已满.
+- **PhD recruitment:** 招收2027年入学全日制硕士/博士。
 - **Call for papers:** Special issue in *Electronics* — <https://www.mdpi.com/journal/electronics/special_issues/M162G37AP3>
 
 ## Selected Funding
