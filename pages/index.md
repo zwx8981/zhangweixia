@@ -370,8 +370,7 @@ permalink: /
         <div class="research-box">
           <h4><strong>Industrial Vision Analysis</strong></h4>
           <p>
-            Extending quality assessment from alignment with human visual perception to alignment with task-specific
-            goals, such as object defect detection and safety monitoring of workers.
+            Shifting quality assessment from human perceptual alignment to task-driven objectives such as defect detection and worker safety monitoring.
           </p>
         </div>
       </div>
