@@ -368,9 +368,9 @@ permalink: /
         </div>
 
         <div class="research-box">
-          <h4><strong>Industrial Vision Analysis</strong></h4>
+          <h4><strong>Practical Vision Analysis</strong></h4>
           <p>
-            Shifting quality assessment from human perceptual alignment to task-driven objectives such as defect detection and worker safety monitoring.
+            Beyond quality assessment for human vision system, we aim to develop vision systems for real-world applications such as industrial safety surveillance.
           </p>
         </div>
       </div>
