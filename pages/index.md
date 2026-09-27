@@ -42,6 +42,49 @@ permalink: /
   box-shadow: 0 8px 22px rgba(0,0,0,0.08);
 }
 
+.lab-logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.lab-logo {
+  display: block;
+  width: min(100%, 1100px);
+  height: auto;
+  object-fit: contain;
+}
+
+/* 如果当前 logo 还是白色背景，可以先加一个柔和的容器 */
+.lab-logo-card {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  background: rgba(255,255,255,0.82);
+  backdrop-filter: blur(6px);
+  border-radius: 22px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 768px) {
+  .lab-logo-wrap {
+    margin-bottom: 1.25rem;
+    padding: 0.25rem;
+  }
+
+  .lab-logo-card {
+    padding: 0.5rem;
+    border-radius: 16px;
+  }
+
+  .lab-logo {
+    width: 100%;
+  }
+}
+
 .hero-row {
   margin-top: 0.5rem;
 }
@@ -299,6 +342,15 @@ permalink: /
 </style>
 
 <div class="home-bg">
+  <div class="lab-logo-wrap">
+    <div class="lab-logo-card">
+      <img
+        class="lab-logo"
+        src="{{ '/assets/miga-lab.png' | relative_url }}"
+        alt="MIGA Lab — Making Images Great Again">
+    </div>
+  </div>
+
 
   <div class="row hero-row align-items-stretch">
     <div class="col-lg-8">
