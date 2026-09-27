@@ -45,12 +45,12 @@ permalink: /
 .lab-logo-wrap {
   display: flex;
   justify-content: center;
-  margin: 0 auto 2rem;
-  padding: 0.5rem 1rem;
+  margin: 0 auto 1.2rem;
+  padding: 0.2rem 1rem;
 }
 
 .lab-logo {
-  width: min(100%, 1100px);
+  width: min(80%, 650px);
   height: auto;
   display: block;
   filter: drop-shadow(0 8px 18px rgba(0,0,0,0.10));
@@ -335,7 +335,7 @@ permalink: /
               Institute of AI, School of Computer Science, Shanghai Jiao Tong University
             </p>
             <p class="hero-note">
-              Welcome to <strong>MIGA Lab — Making Images Great Again</strong>. We explore how visual content can be measured, improved, captured, and understood. Our research spans multimedia quality assessment, perceptual optimization, computational photography, and task-driven computer vision. We develop perceptual and task-aware models to understand what makes an image “great,” use them to guide visual enhancement, improve image quality at the moment of capture, and extend visual intelligence to real-world applications. Ultimately, we aim to make images not only  <strong>look better</strong>, but also <strong>work better</strong>—for both humans and machines.
+              Welcome to <strong>MIGA Lab</strong>. We explore how visual content can be measured, improved, captured, and understood. Our research spans multimedia quality assessment, perceptual optimization, computational photography, and task-driven computer vision. We develop perceptual and task-aware models to understand what makes an image “great”, use them to guide visual enhancement, improve image quality at the moment of capture, and extend visual intelligence to real-world applications. Ultimately, we aim to make images not only  <strong>look better</strong>, but also <strong>work better</strong>—for both humans and machines.
             </p>
           </div>
         </div>
