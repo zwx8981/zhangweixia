@@ -32,6 +32,10 @@ My research focuses on **accurate and robust perceptual quality models** for eva
 
 ## Academic Service
 
+### Associated Editor
+
+TIP
+
 ### Journal Reviewer
 
 TPAMI, IJCV, TIP, TCSVT, TMM, TVCG, J-STSP, PR, and others.
